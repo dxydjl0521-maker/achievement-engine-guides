@@ -1,0 +1,37 @@
+{
+  "submissionId": "4fd7204a-7913-4cca-a312-eaab92b565fd",
+  "guideId": "7229c2cb-3255-4b5c-93da-2d92aa52d1cd",
+  "version": "1.0.1",
+  "packageSha256": "cee696bb912bccfad443282752f8209ddfc342227559bb85681d633ce7749497",
+  "draftReleaseId": 417056681,
+  "assetId": 655675927,
+  "manifest": {
+    "format": "aeguide",
+    "schemaVersion": 1,
+    "guideId": "7229c2cb-3255-4b5c-93da-2d92aa52d1cd",
+    "version": "1.0.1",
+    "game": {
+      "platform": "steam",
+      "platformGameId": "870780",
+      "title": "Control Ultimate Edition"
+    },
+    "guide": {
+      "title": "《Control Ultimate Edition控制终极系列合辑》全成就攻略",
+      "type": "workflow",
+      "language": "zh-CN",
+      "summary": "初始版本，仅按成就类型进行了分类整理。"
+    },
+    "compatibility": {
+      "minAppVersion": "0.8.4"
+    },
+    "author": {
+      "displayName": "dxydjl0521-maker",
+      "githubLogin": "dxydjl0521-maker"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "contentFile": "guide.json",
+    "contentSha256": "2663478d5e6f5a74fb72037fb3d073a8b1c7013242069f1f20b7e9ead8967248",
+    "assets": []
+  },
+  "submittedAt": "2026-10-19T08:23:33.285Z"
+}
