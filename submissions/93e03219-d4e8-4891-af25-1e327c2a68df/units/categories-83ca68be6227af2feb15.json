@@ -1,0 +1,20 @@
+{
+  "entityType": "categories",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "categories",
+      "entityId": "guide",
+      "field": "custom",
+      "operation": "add",
+      "after": []
+    },
+    {
+      "entityType": "categories",
+      "entityId": "guide",
+      "field": "presets",
+      "operation": "add",
+      "after": {}
+    }
+  ]
+}

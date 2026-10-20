@@ -1,0 +1,24 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-NEW_ACHIEVEMENT_1_2",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_2",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "NEW_ACHIEVEMENT_1_28",
+        "NEW_ACHIEVEMENT_1_24",
+        "NEW_ACHIEVEMENT_1_11",
+        "NEW_ACHIEVEMENT_2_8",
+        "NEW_ACHIEVEMENT_1_10",
+        "NEW_ACHIEVEMENT_1_25",
+        "NEW_ACHIEVEMENT_1_22",
+        "NEW_ACHIEVEMENT_1_29",
+        "NEW_ACHIEVEMENT_2_0",
+        "NEW_ACHIEVEMENT_2_12"
+      ]
+    }
+  ]
+}

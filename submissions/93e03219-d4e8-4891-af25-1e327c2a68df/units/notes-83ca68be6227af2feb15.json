@@ -1,0 +1,27 @@
+{
+  "entityType": "notes",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "missable",
+      "operation": "add",
+      "after": []
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "new_game_plus",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "tips",
+      "operation": "add",
+      "after": ""
+    }
+  ]
+}

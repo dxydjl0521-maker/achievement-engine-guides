@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-NEW_ACHIEVEMENT_1_2",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_2",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "NEW_ACHIEVEMENT_1_2"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_2",
+      "field": "chapter",
+      "operation": "add",
+      "after": "被盗的猫木乃伊"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_2",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_2",
+      "field": "description",
+      "operation": "add",
+      "after": "完成“被盗的猫木乃伊”。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_2",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

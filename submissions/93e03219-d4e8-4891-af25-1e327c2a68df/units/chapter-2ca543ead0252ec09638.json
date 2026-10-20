@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-NEW_ACHIEVEMENT_1_6",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_6",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "NEW_ACHIEVEMENT_1_6"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_6",
+      "field": "chapter",
+      "operation": "add",
+      "after": "祝福之珠"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_6",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_6",
+      "field": "description",
+      "operation": "add",
+      "after": "完成“祝福之珠”。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_6",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-NEW_ACHIEVEMENT_1_0",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_0",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "NEW_ACHIEVEMENT_1_0"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_0",
+      "field": "chapter",
+      "operation": "add",
+      "after": "黄金神像"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_0",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_0",
+      "field": "description",
+      "operation": "add",
+      "after": "完成“黄金神像”。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-NEW_ACHIEVEMENT_1_0",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
