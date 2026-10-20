@@ -35,5 +35,4 @@ jobs:
           SUBMISSION_ID: ${{ inputs.submissionId }}
           WORKFLOW_RUN_ID: ${{ github.event.workflow_run.id }}
           APP_VERSION: ${{ vars.GUIDE_APP_VERSION }}
-          GUIDE_MAINTAINERS: ${{ vars.GUIDE_MAINTAINERS }}
         run: node scripts/publish-submission.mjs
