@@ -80,7 +80,6 @@ for (const { filename, record } of records) {
   const approved = [...latestReviewByUser].some(([login, review]) => GUIDE_REVIEWER_LOGINS.has(login)
     && login !== contributorLogin
     && review.state === 'APPROVED' && review.commit_id === pr.head.sha);
-  // GitHub has no self-approval event, so verify the owner submitted and personally merged this PR.
   const mergedByLogin = pr.merged_by?.login?.toLowerCase() || '';
   const authorizedMerge = GUIDE_REVIEWER_LOGINS.has(mergedByLogin);
   // GitHub has no self-approval event, so verify the owner submitted and personally merged this PR.
