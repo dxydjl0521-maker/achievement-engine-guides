@@ -28,5 +28,6 @@ jobs:
           GH_REPO: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
           PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-          APP_VERSION: ${{ vars.GUIDE_APP_VERSION }}
+          # Fork PR workflows may not receive repository variables; match the current public release.
+          APP_VERSION: ${{ vars.GUIDE_APP_VERSION || '0.8.5' }}
         run: node scripts/validate-submission.mjs
