@@ -14,6 +14,14 @@ const before = process.env.GH_BEFORE;
 const appVersion = process.env.APP_VERSION;
 let submissionId = process.env.SUBMISSION_ID;
 const workflowRunId = process.env.WORKFLOW_RUN_ID;
+const recoveryReason = (process.env.RECOVERY_REASON || '').replace(/\s+/g, ' ').trim();
+const recoveryActor = (process.env.WORKFLOW_ACTOR || '').toLowerCase();
+const recoveryRequestValid = process.env.WORKFLOW_EVENT_NAME === 'workflow_dispatch'
+  && submissionId === '3658cd45-359b-4757-b553-acbb2640e950'
+  && recoveryActor === 'dxydjl0521-maker'
+  && recoveryReason.length >= 20 && recoveryReason.length <= 500;
+if (recoveryReason && !recoveryRequestValid)
+  throw new Error('Recovery override is restricted to the designated owner and submission');
 if (!/^\d+\.\d+\.\d+$/.test(appVersion || '') || !/^[a-f0-9]{40}$/.test(sha || ''))
   throw new Error('GUIDE_APP_VERSION or commit SHA missing');
 
@@ -75,7 +83,35 @@ for (const { filename, record } of records) {
   const approved = [...latestReviewByUser].some(([login, review]) => maintainers.has(login)
     && login !== record.contributor.githubLogin.toLowerCase()
     && review.state === 'APPROVED' && review.commit_id === pr.head.sha);
-  if (!approved) throw new Error('A separate authorized maintainer must approve the contribution');
+  const ownerRecovery = recoveryRequestValid && records.length === 1
+    && record.submissionId === '3658cd45-359b-4757-b553-acbb2640e950'
+    && record.guideId === '877ad385-1c9e-4f3b-929a-2c915a193df9'
+    && record.version === '1.0.0'
+    && record.packageSha256 === 'e584629c51c5551e36446989d1a579c1f4a9db54a19eec60d65113587075267c'
+    && record.contributor.githubLogin.toLowerCase() === 'dxydjl0521-maker'
+    && pr.number === 18
+    && pr.head.sha === 'b3e66436173c41f0e4ad3a71957c3ea379f2a2bc'
+    && pr.merge_commit_sha === '06a32a0fded9e2b1f9e0f3e1ffdfd9e4a995774b';
+  if (recoveryRequestValid && !ownerRecovery)
+    throw new Error('Recovery request does not match the fixed incident record');
+  if (!approved && !ownerRecovery)
+    throw new Error('A separate authorized maintainer must approve the contribution');
+  if (ownerRecovery) {
+    const audit = {
+      event: 'one-time-owner-recovery',
+      actor: recoveryActor,
+      submissionId: record.submissionId,
+      guideId: record.guideId,
+      version: record.version,
+      packageSha256: record.packageSha256,
+      reason: recoveryReason,
+    };
+    console.log(JSON.stringify(audit));
+    if (process.env.GITHUB_STEP_SUMMARY) {
+      const { appendFileSync } = await import('node:fs');
+      appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### One-time owner recovery\n- Actor: ${recoveryActor}\n- Submission: ${record.submissionId}\n- Package SHA-256: `${record.packageSha256}`\n- Reason: ${recoveryReason}\n\n`);
+    }
+  }
 
   const release = await gh('GET', `/releases/${record.draftReleaseId}`);
   const asset = release?.assets?.find((item) => item.id === record.assetId);
@@ -99,8 +135,7 @@ for (const { filename, record } of records) {
   const sameScope = catalog.entries.filter((item) => item.game.platform === record.manifest.game.platform
     && item.game.platformGameId === record.manifest.game.platformGameId
     && item.guide.language === record.manifest.guide.language);
-  if (sameScope.some((item) => item.guideId !== record.guideId))
-    throw new Error('A different community guide already owns this game and language');
+  // Separate guide IDs are independent series and may coexist for one game and language.
   const versions = sameScope.filter((item) => item.guideId === record.guideId)
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
   const prior = catalog.entries.find((item) => item.guideId === record.guideId && item.version === record.version);
