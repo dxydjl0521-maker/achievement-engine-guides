@@ -14,15 +14,8 @@ const before = process.env.GH_BEFORE;
 const appVersion = process.env.APP_VERSION;
 let submissionId = process.env.SUBMISSION_ID;
 const workflowRunId = process.env.WORKFLOW_RUN_ID;
-// The merge closed this exact owner-contributed PR before independent approval could be recorded.
-const recoveryReason = (process.env.RECOVERY_REASON || '').replace(/\s+/g, ' ').trim();
-const recoveryActor = (process.env.WORKFLOW_ACTOR || '').toLowerCase();
-const recoveryRequestValid = process.env.WORKFLOW_EVENT_NAME === 'workflow_dispatch'
-  && submissionId === '3658cd45-359b-4757-b553-acbb2640e950'
-  && recoveryActor === 'dxydjl0521-maker'
-  && recoveryReason.length >= 20 && recoveryReason.length <= 500;
-if (recoveryReason && !recoveryRequestValid)
-  throw new Error('Recovery override is restricted to the designated owner and submission');
+const GUIDE_OWNER_LOGIN = 'dxydjl0521-maker';
+const GUIDE_REVIEWER_LOGINS = new Set([GUIDE_OWNER_LOGIN, 'dxydjl']);
 if (!/^\d+\.\d+\.\d+$/.test(appVersion || '') || !/^[a-f0-9]{40}$/.test(sha || ''))
   throw new Error('GUIDE_APP_VERSION or commit SHA missing');
 
@@ -68,52 +61,30 @@ if (!submissionId && changedFiles.some((name) => !files.includes(name) && !expec
 for (const { filename, record } of records) {
   const fileCommit = execFileSync('git', ['log', '-1', '--format=%H', '--', filename], { encoding: 'utf8' }).trim();
   const linked = await gh('GET', `/commits/${fileCommit}/pulls`);
-  const pr = linked?.find((item) => item.merged_at && item.base.ref === 'main' && item.head.ref === `submissions/${record.submissionId}`);
-  if (!pr) throw new Error('Submission was not merged from its validated PR');
+  const linkedPr = linked?.find((item) => item.merged_at && item.base.ref === 'main' && item.head.ref === `submissions/${record.submissionId}`);
+  if (!linkedPr) throw new Error('Submission was not merged from its validated PR');
+  // The commit-to-PR endpoint omits merged_by; fetch the PR to verify the account that merged it.
+  const pr = await gh('GET', `/pulls/${linkedPr.number}`);
+  if (!pr || !pr.merged_at || pr.base?.ref !== 'main' || pr.head?.ref !== `submissions/${record.submissionId}`)
+    throw new Error('Merged submission PR details unavailable');
   const validation = await gh('GET', `/actions/workflows/validate-guide.yml/runs?event=pull_request&branch=${encodeURIComponent(pr.head.ref)}&per_page=100`);
   if (!validation?.workflow_runs?.some((run) => run.name === 'Validate guide submission'
     && run.event === 'pull_request' && run.conclusion === 'success'
     && run.head_branch === pr.head.ref && run.head_sha === pr.head.sha))
     throw new Error('Final PR revision has no successful validation run');
-  const maintainers = new Set((process.env.GUIDE_MAINTAINERS || '').split(',').map((login) => login.trim().toLowerCase()).filter(Boolean));
-  if (!maintainers.size) throw new Error('GUIDE_MAINTAINERS must list authorized reviewers');
   const reviews = await gh('GET', `/pulls/${pr.number}/reviews?per_page=100`);
   if (!Array.isArray(reviews)) throw new Error('PR reviews unavailable');
   const latestReviewByUser = new Map();
   for (const review of reviews) if (review.user?.login) latestReviewByUser.set(review.user.login.toLowerCase(), review);
-  const approved = [...latestReviewByUser].some(([login, review]) => maintainers.has(login)
-    && login !== record.contributor.githubLogin.toLowerCase()
+  const contributorLogin = record.contributor.githubLogin.toLowerCase();
+  const approved = [...latestReviewByUser].some(([login, review]) => GUIDE_REVIEWER_LOGINS.has(login)
+    && login !== contributorLogin
     && review.state === 'APPROVED' && review.commit_id === pr.head.sha);
-  // Pin the exception to immutable PR refs, the owner identity, and the reviewed package digest.
-  const ownerRecovery = recoveryRequestValid && records.length === 1
-    && record.submissionId === '3658cd45-359b-4757-b553-acbb2640e950'
-    && record.guideId === '877ad385-1c9e-4f3b-929a-2c915a193df9'
-    && record.version === '1.0.0'
-    && record.packageSha256 === 'e584629c51c5551e36446989d1a579c1f4a9db54a19eec60d65113587075267c'
-    && record.contributor.githubLogin.toLowerCase() === 'dxydjl0521-maker'
-    && pr.number === 18
-    && pr.head.sha === 'b3e66436173c41f0e4ad3a71957c3ea379f2a2bc'
-    && pr.merge_commit_sha === '06a32a0fded9e2b1f9e0f3e1ffdfd9e4a995774b';
-  if (recoveryRequestValid && !ownerRecovery)
-    throw new Error('Recovery request does not match the fixed incident record');
-  if (!approved && !ownerRecovery)
-    throw new Error('A separate authorized maintainer must approve the contribution');
-  if (ownerRecovery) {
-    const audit = {
-      event: 'one-time-owner-recovery',
-      actor: recoveryActor,
-      submissionId: record.submissionId,
-      guideId: record.guideId,
-      version: record.version,
-      packageSha256: record.packageSha256,
-      reason: recoveryReason,
-    };
-    console.log(JSON.stringify(audit));
-    if (process.env.GITHUB_STEP_SUMMARY) {
-      const { appendFileSync } = await import('node:fs');
-      appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### One-time owner recovery\n- Actor: ${recoveryActor}\n- Submission: ${record.submissionId}\n- Package SHA-256: ${record.packageSha256}\n- Reason: ${recoveryReason}\n\n`);
-    }
-  }
+  // GitHub has no self-approval event, so verify the owner submitted and personally merged this PR.
+  const ownerSelfMerge = contributorLogin === GUIDE_OWNER_LOGIN
+    && pr.merged_by?.login?.toLowerCase() === GUIDE_OWNER_LOGIN;
+  if (!approved && !ownerSelfMerge)
+    throw new Error('An authorized reviewer must approve this contribution, or the repository owner must merge their own submission');
 
   const release = await gh('GET', `/releases/${record.draftReleaseId}`);
   const asset = release?.assets?.find((item) => item.id === record.assetId);
