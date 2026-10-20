@@ -4,8 +4,18 @@ on:
     paths:
       - 'submissions/*.json'
       - 'submissions/**/units/*.json'
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: Pull request number to revalidate
+        required: true
+        type: number
+      pr_head_sha:
+        description: Exact head commit SHA from the pull request
+        required: true
+        type: string
 permissions:
-  contents: write
+  contents: read
   pull-requests: read
 jobs:
   validate:
@@ -15,7 +25,7 @@ jobs:
       # branch can change metadata, but cannot replace code that runs in CI.
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.base.sha }}
+          ref: ${{ github.event.pull_request.base.sha || github.sha }}
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
@@ -26,8 +36,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha || inputs.pr_head_sha }}
           # Fork PR workflows may not receive repository variables; match the current public release.
           APP_VERSION: ${{ vars.GUIDE_APP_VERSION || '0.8.5' }}
         run: node scripts/validate-submission.mjs
