@@ -1,0 +1,15 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-Achievement_Chapter3",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-Achievement_Chapter3",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "Achievement_JoinOpsTeam"
+      ]
+    }
+  ]
+}

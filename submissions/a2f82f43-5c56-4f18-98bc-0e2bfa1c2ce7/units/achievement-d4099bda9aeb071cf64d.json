@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "Achievement_MBU",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_MBU",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_MBU"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_MBU",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_MBU",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_MBU",
+      "field": "note",
+      "operation": "add",
+      "after": "有些问题不会有答案"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_MBU",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

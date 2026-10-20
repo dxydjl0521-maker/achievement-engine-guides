@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "Achievement_BaoJieWhatDoYouThink",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_BaoJieWhatDoYouThink",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_BaoJieWhatDoYouThink"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_BaoJieWhatDoYouThink",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_BaoJieWhatDoYouThink",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_BaoJieWhatDoYouThink",
+      "field": "note",
+      "operation": "add",
+      "after": "看完 2 则工厂里的电视新闻"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_BaoJieWhatDoYouThink",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

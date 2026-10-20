@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-Achievement_Chapter4",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter4",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_Chapter4"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter4",
+      "field": "chapter",
+      "operation": "add",
+      "after": "何谓正义"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter4",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter4",
+      "field": "description",
+      "operation": "add",
+      "after": "通过第四章"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter4",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

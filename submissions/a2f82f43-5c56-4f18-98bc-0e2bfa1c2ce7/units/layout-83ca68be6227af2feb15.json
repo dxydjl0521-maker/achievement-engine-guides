@@ -1,0 +1,20 @@
+{
+  "entityType": "layout",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "guide",
+      "field": "chapterOrder",
+      "operation": "add",
+      "after": [
+        "chapter-Achievement_Chapter1",
+        "chapter-Achievement_Chapter2",
+        "chapter-Achievement_Chapter3",
+        "chapter-Achievement_Chapter4",
+        "chapter-Achievement_Ending",
+        "chapter-umvgxxz577"
+      ]
+    }
+  ]
+}

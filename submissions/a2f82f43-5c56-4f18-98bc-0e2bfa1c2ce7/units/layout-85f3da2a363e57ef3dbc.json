@@ -1,0 +1,18 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-Achievement_Chapter4",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-Achievement_Chapter4",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "Achievement_WinWin",
+        "Achievement_NinSituAMonster",
+        "Achievement_ThankYouJason",
+        "Achievement_23LoveNin"
+      ]
+    }
+  ]
+}

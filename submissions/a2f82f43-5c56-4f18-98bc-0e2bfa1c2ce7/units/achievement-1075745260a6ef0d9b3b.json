@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "Achievement_JoinOpsTeam",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_JoinOpsTeam",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_JoinOpsTeam"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_JoinOpsTeam",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_JoinOpsTeam",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_JoinOpsTeam",
+      "field": "note",
+      "operation": "add",
+      "after": "成为操作组的一员"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_JoinOpsTeam",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

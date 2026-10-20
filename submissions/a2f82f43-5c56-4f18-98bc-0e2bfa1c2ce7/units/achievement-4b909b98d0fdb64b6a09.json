@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "Achievement_JoinScreeningTeam",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_JoinScreeningTeam",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_JoinScreeningTeam"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_JoinScreeningTeam",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_JoinScreeningTeam",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_JoinScreeningTeam",
+      "field": "note",
+      "operation": "add",
+      "after": "成为筛选组的一员"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_JoinScreeningTeam",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

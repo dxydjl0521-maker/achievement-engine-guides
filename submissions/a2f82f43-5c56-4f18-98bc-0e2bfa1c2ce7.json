@@ -1,0 +1,170 @@
+{
+  "submissionId": "a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7",
+  "guideId": "4e2ac608-3a83-4975-a118-dfe48060cafa",
+  "version": "1.0.0",
+  "packageSha256": "f7965e62d7bb6debbd4754371a576bc64c3161acd23e27d00cb938d52a2a2808",
+  "draftReleaseId": 418663597,
+  "assetId": 659961806,
+  "assetRepository": "DXYDJL/achievement-engine-guides",
+  "assetName": "a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7.aeguide",
+  "manifest": {
+    "format": "aeguide",
+    "schemaVersion": 1,
+    "guideId": "4e2ac608-3a83-4975-a118-dfe48060cafa",
+    "version": "1.0.0",
+    "game": {
+      "platform": "steam",
+      "platformGameId": "1610440",
+      "title": "Minds Beneath Us"
+    },
+    "guide": {
+      "title": "Minds Beneath Us-全成就攻略（章节流程）",
+      "type": "workflow",
+      "language": "zh-CN",
+      "summary": ""
+    },
+    "compatibility": {
+      "minAppVersion": "0.8.5"
+    },
+    "author": {
+      "displayName": "DXYDJL",
+      "githubLogin": "DXYDJL"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "contentFile": "guide.json",
+    "contentSha256": "4c5631df8b383fd721788acae40ee47b64e8efdc540a54a807110d832552e426",
+    "assets": []
+  },
+  "submittedAt": "2026-10-20T17:14:44.554Z",
+  "baseRevision": null,
+  "contributor": {
+    "userId": 106290147,
+    "githubLogin": "DXYDJL"
+  },
+  "changeFiles": [
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-c5927db6fcf0fa5b1702.json",
+      "sha256": "5c69d84a99cfdbecff1ee8297e628c9b296babf958fa3ad7edef10f8639fdbbd"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-73412a26a76efe1c2551.json",
+      "sha256": "6b4c955837fa1467cc0da6115c65daf63f58e856c15a35c5fc7252c75781c7eb"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-ee50f46845445d4c8579.json",
+      "sha256": "8e8e9512fff39517b7d8cb0797a3d7a456f45af819a75a3c99af74603ead8b31"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-a742235c808527dec0ef.json",
+      "sha256": "6716585e37a657670ddab91f7c66fedb57f5d6122c1aed74d105f140c31ccd51"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-7ccfbf1977296909e3e4.json",
+      "sha256": "096d6936c35318bec48735dc4d2eadfcd8605307cce9485b2d87ff4fe3b7cc9e"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-39aaaaae8fa0a91a8243.json",
+      "sha256": "c5b1c26873943e25e7518b68c3450633c6ca5889de51a4a2663f9444cf76c84d"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-c5070f650598dabcfcb7.json",
+      "sha256": "3b2bedd2e087869380a7f346f5850a05398a56c7051373c11d4298d6103b3ab5"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-606a780ac62a093c02f6.json",
+      "sha256": "207eacaa1385b1bf809b9124f259d370983366919da1e60a8734865b3b7002c0"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-89d291dbb68004d616a4.json",
+      "sha256": "f1b67c86bcf574852c4705401bfffb0fb3c49629d4d0125d1f3de46b74df47fb"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-1075745260a6ef0d9b3b.json",
+      "sha256": "99c6364cc98ca1225b16bfd0a7fec25394dc57f6d6459f0738b8ed0bce61765e"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-4b909b98d0fdb64b6a09.json",
+      "sha256": "b84ee748f20025e2e18e36ab8e9cf9da7187b1b243c24c0b330fd7778a90260e"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-d4099bda9aeb071cf64d.json",
+      "sha256": "5ec13c799c0653b7780651772f4a2848bc43e35f8deddb6c6c50f48fe63fd78e"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-c15755895c3be87637f0.json",
+      "sha256": "7aece43912f800f39a55e153fbc50c4cbfa5c2a7cb842d630b42171031866701"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-fb4ceca88490be85f954.json",
+      "sha256": "87f37ce251090a1c5a48b3424ae21ca02d0a9b6041705d364e83dcfd708a62d8"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-1ba62320cc854013f3a3.json",
+      "sha256": "56239230ca03fde02f663c6639b1b543ac19c9e0e01396a9e2e9501a8b3025ce"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/achievement-55b2fae117d7d97a3e34.json",
+      "sha256": "3e4d0289aca6c07e2f27de0876bd47189de825ee59a7bfb021223e83a06d3fd7"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/categories-83ca68be6227af2feb15.json",
+      "sha256": "88041938a5a5b8aa0c017aaf1cef5f7dddee781c41f1ff434f94b5d41795e3c2"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/chapter-b0f424f0f3c4442316c1.json",
+      "sha256": "09e5ccb0c4443f405446601731e965cc9c083eb53b6eca9ccc71f79cd938fd31"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/chapter-a54fd9506395a79be7a9.json",
+      "sha256": "b7f14b11f9d3503033e5dc3e732cb123b24912d5f32dfd9466cf706fa25160b4"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/chapter-cf3d503e429249af022c.json",
+      "sha256": "f0a8ff97eb933d41b9c3c6af6e3147dd530afd27fd122a8622c3de050895981e"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/chapter-85f3da2a363e57ef3dbc.json",
+      "sha256": "78b7e089123ea2d640f5ca87a17f3a82003eb6d5af36e2abe5ebfe6dc2ec8621"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/chapter-a92ee1cbbae8034a269e.json",
+      "sha256": "646deb3d56aae189298114def15560e68249227508f5d5ab884635a6030d610a"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/chapter-46cf2df2db5835f65c72.json",
+      "sha256": "75786f68fbe59c88e868441841d803ec70e116d8b787f53caa2dc542a436f181"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/layout-b0f424f0f3c4442316c1.json",
+      "sha256": "bd37f6208206e38f08e806c753a3b03517d38b1363c638dc8fed78dbf49458ca"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/layout-a54fd9506395a79be7a9.json",
+      "sha256": "0f1d2d0ebf941714f26d226477f8add33d3df8dccb36fff01bf3431e2f89bcc2"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/layout-cf3d503e429249af022c.json",
+      "sha256": "685973e60468c9ba350c02ebb5f524fc19810f3e90873a6df589c3aaa6e70468"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/layout-85f3da2a363e57ef3dbc.json",
+      "sha256": "74f1a0f028ed9fb2136a66b1e3114d3efc5cfaa75052f8d07d8a40574ee9512b"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/layout-a92ee1cbbae8034a269e.json",
+      "sha256": "9d96e683b9654398d200b923f49c37675e431e59f4b822955248e5267eac55af"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/layout-46cf2df2db5835f65c72.json",
+      "sha256": "b9314655831dbd4dca0fa49f3336757113de4eb8571b44b94d43cc418fd8c12f"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/layout-83ca68be6227af2feb15.json",
+      "sha256": "617c357d9326a708572847290ca53b5faf23ef3f459fce1db46f25cce3ee19b0"
+    },
+    {
+      "path": "submissions/a2f82f43-5c56-4f18-98bc-0e2bfa1c2ce7/units/notes-83ca68be6227af2feb15.json",
+      "sha256": "53e074189027b5c2036801b035f1171dabe4ab2cf556ad9231044288fbcf35c1"
+    }
+  ]
+}

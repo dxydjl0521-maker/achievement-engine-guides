@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-Achievement_Ending",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Ending",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_Ending"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Ending",
+      "field": "chapter",
+      "operation": "add",
+      "after": "你的选择"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Ending",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Ending",
+      "field": "description",
+      "operation": "add",
+      "after": "通过最终章"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Ending",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "Achievement_Emergency",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_Emergency",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_Emergency"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_Emergency",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_Emergency",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_Emergency",
+      "field": "note",
+      "operation": "add",
+      "after": "平定筛选组的骚乱"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_Emergency",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

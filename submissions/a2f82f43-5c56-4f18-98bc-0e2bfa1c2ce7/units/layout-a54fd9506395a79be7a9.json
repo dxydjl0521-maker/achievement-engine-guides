@@ -1,0 +1,17 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-Achievement_Chapter2",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-Achievement_Chapter2",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "Achievement_PleaseHoldTheHandRail",
+        "Achievement_BaoJieWhatDoYouThink",
+        "Achievement_FirstTimeRacking"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-Achievement_Chapter1",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-Achievement_Chapter1",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "Achievement_Chapter0",
+        "Achievement_CuriousBaby",
+        "Achievement_CanWeShowerTogether",
+        "Achievement_FirstTimeScreening",
+        "Achievement_Emergency"
+      ]
+    }
+  ]
+}

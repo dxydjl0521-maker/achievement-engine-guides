@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "Achievement_PleaseHoldTheHandRail",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_PleaseHoldTheHandRail",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_PleaseHoldTheHandRail"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_PleaseHoldTheHandRail",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_PleaseHoldTheHandRail",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_PleaseHoldTheHandRail",
+      "field": "note",
+      "operation": "add",
+      "after": "第一次搭捷运"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_PleaseHoldTheHandRail",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

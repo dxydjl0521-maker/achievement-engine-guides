@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-Achievement_Chapter3",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter3",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_Chapter3"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter3",
+      "field": "chapter",
+      "operation": "add",
+      "after": "事件的本质"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter3",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter3",
+      "field": "description",
+      "operation": "add",
+      "after": "通过第三章"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter3",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

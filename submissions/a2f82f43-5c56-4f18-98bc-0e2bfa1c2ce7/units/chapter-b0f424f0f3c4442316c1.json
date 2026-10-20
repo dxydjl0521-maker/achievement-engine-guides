@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-Achievement_Chapter1",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter1",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_Chapter1"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter1",
+      "field": "chapter",
+      "operation": "add",
+      "after": "谢谢你找到我"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter1",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter1",
+      "field": "description",
+      "operation": "add",
+      "after": "通过第一章"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-Achievement_Chapter1",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

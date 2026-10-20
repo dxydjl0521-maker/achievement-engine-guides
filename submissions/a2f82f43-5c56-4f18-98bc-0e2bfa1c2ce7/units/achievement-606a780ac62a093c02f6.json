@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "Achievement_FirstTimeRacking",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_FirstTimeRacking",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_FirstTimeRacking"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_FirstTimeRacking",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_FirstTimeRacking",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_FirstTimeRacking",
+      "field": "note",
+      "operation": "add",
+      "after": "完成第一次送架流程"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_FirstTimeRacking",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

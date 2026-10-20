@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "Achievement_WinWin",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_WinWin",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_WinWin"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_WinWin",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_WinWin",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_WinWin",
+      "field": "note",
+      "operation": "add",
+      "after": "促使筛选组与操作组合作"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_WinWin",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

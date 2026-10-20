@@ -1,0 +1,15 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-Achievement_Ending",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-Achievement_Ending",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "Achievement_ConfidentialRedRoomInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "Achievement_23LoveNin",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_23LoveNin",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_23LoveNin"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_23LoveNin",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_23LoveNin",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_23LoveNin",
+      "field": "note",
+      "operation": "add",
+      "after": "23向司徒宁表露心声"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_23LoveNin",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

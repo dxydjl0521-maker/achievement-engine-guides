@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "Achievement_CanWeShowerTogether",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_CanWeShowerTogether",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_CanWeShowerTogether"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_CanWeShowerTogether",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_CanWeShowerTogether",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_CanWeShowerTogether",
+      "field": "note",
+      "operation": "add",
+      "after": "真的不要吗?"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_CanWeShowerTogether",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "Achievement_ThankYouJason",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_ThankYouJason",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "Achievement_ThankYouJason"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_ThankYouJason",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_ThankYouJason",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_ThankYouJason",
+      "field": "note",
+      "operation": "add",
+      "after": "第四天晚上与张隆生谈心"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "Achievement_ThankYouJason",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvgxxz577",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvgxxz577",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvgxxz577",
+      "field": "chapter",
+      "operation": "add",
+      "after": "二周目补做"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvgxxz577",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvgxxz577",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvgxxz577",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
