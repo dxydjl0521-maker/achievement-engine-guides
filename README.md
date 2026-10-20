@@ -6,4 +6,4 @@
 
 攻略内容采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可。单攻略上传上限为十进制 500 MB，单个文件上限为 100 MB。服务端会流式接收包体，并逐张解码、重新编码图片，清除元数据后才将净化后的攻略包写入草稿 Release。完整服务配置及上线条件见主项目的 `community-service/README.md`。
 
-仓库初始化后还需安装仅限本仓库的 GitHub App，并配置仓库变量 `GUIDE_APP_VERSION`（如 `0.8.5`）和 `GUIDE_MAINTAINERS`（逗号分隔）。校验工作流只需读取权限，发布工作流需要 `contents: write` 和 `pull-requests: read`。通常发布时会核对独立维护者对最终 PR 提交的批准；针对投稿 `3658cd45-359b-4757-b553-acbb2640e950` 的单次恢复例外仅允许仓库所有者手动触发，并要求填写理由、重新校验固定 PR 与包 SHA-256。自动规则范围与无法自动判断的内容见 `policy/content-policy.md`。
+仓库初始化后还需安装仅限本仓库的 GitHub App，并配置仓库变量 `GUIDE_APP_VERSION`（如 `0.8.5`）。校验工作流只需读取权限，发布工作流需要 `contents: write` 和 `pull-requests: read`。`dxydjl0521-maker` 提交的攻略可以由本人合并发布；其他投稿须由 `dxydjl0521-maker` 或 `DXYDJL` 对最终 PR 提交批准，之后由有仓库写入权限的账号合并。自动规则范围与无法自动判断的内容见 `policy/content-policy.md`。
