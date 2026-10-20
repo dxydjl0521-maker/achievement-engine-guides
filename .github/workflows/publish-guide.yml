@@ -10,10 +10,6 @@ on:
         description: '需重试发布的投稿 ID'
         required: true
         type: string
-      recoveryReason:
-        description: '单次指定投稿的仓库所有者补发理由；其他投稿无效'
-        required: false
-        type: string
 permissions:
   actions: read
   contents: write
@@ -37,9 +33,6 @@ jobs:
           GH_SHA: ${{ github.sha }}
           GH_BEFORE: ${{ github.event.before }}
           SUBMISSION_ID: ${{ inputs.submissionId }}
-          RECOVERY_REASON: ${{ inputs.recoveryReason }}
-          WORKFLOW_ACTOR: ${{ github.actor }}
-          WORKFLOW_EVENT_NAME: ${{ github.event_name }}
           WORKFLOW_RUN_ID: ${{ github.event.workflow_run.id }}
           APP_VERSION: ${{ vars.GUIDE_APP_VERSION }}
           GUIDE_MAINTAINERS: ${{ vars.GUIDE_MAINTAINERS }}
