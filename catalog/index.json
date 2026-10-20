@@ -225,6 +225,31 @@
       "releaseId": 418687009,
       "assetId": 660021842,
       "publishedAt": "2026-10-20T17:40:56.542Z"
+    },
+    {
+      "guideId": "68c01421-977d-4706-b2dd-4872d70c8a2f",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "2677660",
+        "title": "Indiana Jones and the Great Circle"
+      },
+      "guide": {
+        "title": "Indiana Jones and the Great Circle-全成就攻略（章节流程）",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": ""
+      },
+      "author": {
+        "displayName": "DXYDJL",
+        "githubLogin": "DXYDJL"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.5",
+      "sha256": "35131d04e9e0dd41413561dafc566981dfa2a1f959529afcc8c16262ef1df1b3",
+      "releaseId": 418689745,
+      "assetId": 660028869,
+      "publishedAt": "2026-10-20T17:44:06.240Z"
     }
   ]
 }
