@@ -175,6 +175,31 @@
       "releaseId": 418599225,
       "assetId": 659799377,
       "publishedAt": "2026-10-20T16:06:48.012Z"
+    },
+    {
+      "guideId": "6317b3e6-38f5-4f54-a7bf-4a21dfa1678a",
+      "version": "1.0.1",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "4094660",
+        "title": "Rivage"
+      },
+      "guide": {
+        "title": "Rivage-全成就攻略（默认攻略）",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": ""
+      },
+      "author": {
+        "displayName": "DXYDJL",
+        "githubLogin": "DXYDJL"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.5",
+      "sha256": "e88331af594bffdf9d0f50c8bdd8a67a9a560f6874a2a44af5745ec42ad47352",
+      "releaseId": 418686547,
+      "assetId": 660020798,
+      "publishedAt": "2026-10-20T17:40:26.568Z"
     }
   ]
 }
