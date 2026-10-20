@@ -14,6 +14,7 @@ const before = process.env.GH_BEFORE;
 const appVersion = process.env.APP_VERSION;
 let submissionId = process.env.SUBMISSION_ID;
 const workflowRunId = process.env.WORKFLOW_RUN_ID;
+// The merge closed this exact owner-contributed PR before independent approval could be recorded.
 const recoveryReason = (process.env.RECOVERY_REASON || '').replace(/\s+/g, ' ').trim();
 const recoveryActor = (process.env.WORKFLOW_ACTOR || '').toLowerCase();
 const recoveryRequestValid = process.env.WORKFLOW_EVENT_NAME === 'workflow_dispatch'
@@ -83,6 +84,7 @@ for (const { filename, record } of records) {
   const approved = [...latestReviewByUser].some(([login, review]) => maintainers.has(login)
     && login !== record.contributor.githubLogin.toLowerCase()
     && review.state === 'APPROVED' && review.commit_id === pr.head.sha);
+  // Pin the exception to immutable PR refs, the owner identity, and the reviewed package digest.
   const ownerRecovery = recoveryRequestValid && records.length === 1
     && record.submissionId === '3658cd45-359b-4757-b553-acbb2640e950'
     && record.guideId === '877ad385-1c9e-4f3b-929a-2c915a193df9'
