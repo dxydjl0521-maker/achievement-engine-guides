@@ -1,0 +1,14 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umus6fx4qa",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umus6fx4qa",
+      "field": "content",
+      "operation": "update",
+      "before": "<div data-img-block=\"\"><img src=\"assets/cfa73150cbe0f7d6065d7845f76e0e14d73d3e016a12126709025545c0396f53.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">天文台视频.MP4<br></div></div><div><div data-img-block=\"\"><img src=\"assets/ab521fcd682821f914b8a6dfc8d03abe328e7f8197039c0d4f5930caf61f6935.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">ARES演示.MP4</div></div></div>",
+      "after": "<div data-img-block=\"\"><img src=\"assets/384ba89a15113817d8de8bd291a2186e22aebf7199a5e25603684cb6ddbbdd6a.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">天文台视频.MP4<br></div></div><div><div data-img-block=\"\"><img src=\"assets/d50dc40efaf1bd379432adc0b1e95b5f80d6f2a7665930783c85e4abee365b62.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">ARES演示.MP4</div></div></div>"
+    }
+  ]
+}

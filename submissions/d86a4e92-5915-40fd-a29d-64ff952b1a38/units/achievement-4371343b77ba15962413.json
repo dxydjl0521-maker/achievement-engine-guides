@@ -1,0 +1,14 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_TRAVELLER",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_TRAVELLER",
+      "field": "content",
+      "operation": "update",
+      "before": "<h1>关卡05 通关游戏</h1><h2>新一循环，前往聚变核心</h2><h1><img src=\"assets/53a05e824b069ed85b7bcedf9aaa2a98471667ccb53331fedde863d1e26a87ae.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/f2a10f9f074867b3d80b1d185a209ba459be8007a0541390fdaff521b51dba36.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/4bee9396e7fb9faaf3083604854a318936d18de2b3672abadcd01b86d43234ea.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/093bc0ad75c7cf1e9b246fcadf93d46cefb3fd4461b93136b701947cdb27b49c.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/6b5f36f9b62e14301c450dcb042d6a6cb49a46cf9a970d7d7521ee1262d1eacc.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></h1>",
+      "after": "<h1>关卡05 通关游戏</h1><h2>新一循环，前往聚变核心</h2><h1><img src=\"assets/46be482d67eff779890ef23aab01bf9261a6b1db64753d3d54412cb869dd9028.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/c3108676928e431ee6b7a9065b6f6eaa5a09bd7b1f4e227e466bb9a71dff4e46.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/410f7259a1eb4e475383b4dc678ed0a2223feeccd69fb6873e73599656d8e914.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/0a859174f7140d381bad99ecc35a5e2b9ac1f2a6bbf4ba5bd8036170276e3872.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/448e297a2263c4a5c3f367091ae9af223433a8352dcc417fc96de32fa4918d55.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></h1>"
+    }
+  ]
+}

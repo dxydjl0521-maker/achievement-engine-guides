@@ -1,0 +1,14 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_ASSEMBLER",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_ASSEMBLER",
+      "field": "content",
+      "operation": "update",
+      "before": "<div><div><div data-img-block=\"\"><img src=\"assets/f4ec41eabb4c0cb52a0089ff106b84eecaa99dd92ea9c7ad06df1d5d5a6e1335.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\"><div>依次输入<span><br></span></div><div><span>ASROOT EXTRACT DataLensArchive.qpak</span><br></div><div><span>CAT Readme.note</span></div><div>BUILD DataLensInstaller.qb<br></div><div>Datalens.exe train_components_list.dtl</div></div></div></div><div><img src=\"assets/ee10b0086e37a5816cb3bff0d61460de672fffcce082f3bd4a6f6173817b8198.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div><div><div data-img-block=\"\"><img src=\"assets/dad969685d3db5e4aeccefdd84fa0942b117c9b20e81d44c2c26b75c2fd5ef68.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">制作好后插入列车，修复聚变核心轨道</div></div></div></div>",
+      "after": "<div><div><div data-img-block=\"\"><img src=\"assets/dd526a0e20999ee3a87a7d4a0fad708b3fce2b1c5207c453e762b767834f4639.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\"><div>依次输入<span><br></span></div><div><span>ASROOT EXTRACT DataLensArchive.qpak</span><br></div><div><span>CAT Readme.note</span></div><div>BUILD DataLensInstaller.qb<br></div><div>Datalens.exe train_components_list.dtl</div></div></div></div><div><img src=\"assets/df5db1b050e00136c92b73f035698d098d4bb0929b846e08117a9242fbd85185.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div><div><div data-img-block=\"\"><img src=\"assets/a3bee701f30b32ca6dce07c1f2b3a00100332171d249a32d2bde2dd49a7ec45d.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">制作好后插入列车，修复聚变核心轨道</div></div></div></div>"
+    }
+  ]
+}

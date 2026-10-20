@@ -1,0 +1,14 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_SCIENTIST",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_SCIENTIST",
+      "field": "content",
+      "operation": "update",
+      "before": "<div>还原魔方6个面，穿越至车库二楼，拿到卡片3</div><img src=\"assets/10169a8a76195af19b025cab7e592f7b997479ff1ae59690912ac9d36a639816.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\">",
+      "after": "<div>还原魔方6个面，穿越至车库二楼，拿到卡片3</div><img src=\"assets/7d80a499b7b0d547758ab4f8132420ea75c4597e817b5218a383a8fc71fc242b.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\">"
+    }
+  ]
+}

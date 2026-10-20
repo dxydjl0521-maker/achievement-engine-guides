@@ -1,0 +1,14 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_MUSICIAN",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_MUSICIAN",
+      "field": "content",
+      "operation": "update",
+      "before": "<div data-img-block=\"\"><img src=\"assets/c65be733aa2041f9a83f5412e30e7010480211126ed955bdacfc4e4ea0fb138b.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">Rafael房间的木琴图画</div></div><img src=\"assets/ce23400b94e7011dace561485fc139abe78e0a9675b3e60dd0edb6ad0a81e8f4.webp\" style=\"width: 80%; display: block; border-radius: 4px; margin: 8px auto\"><div data-img-block=\"\"><img src=\"assets/b91e64897c77adbb18c82a9c4e45ebdfc377c4e9847e2014a498e30aebe0d125.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">大厅按图示颜色依次弹木琴，视界探测器出现塔罗牌</div></div>",
+      "after": "<div data-img-block=\"\"><img src=\"assets/03e1bcb35ba810bdafd72afabd980f70574f900b5928611f2b7dc67022ceafc1.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">Rafael房间的木琴图画</div></div><img src=\"assets/3289da30449353a926d2bf4b09dfa6f1f728d918fa7d92a77ccfcd64ce5819bf.webp\" style=\"width: 80%; display: block; border-radius: 4px; margin: 8px auto\"><div data-img-block=\"\"><img src=\"assets/2dea63b27774978d740f8326319913e74da5af5769c2419a9757888c50d2604d.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center;\">大厅按图示颜色依次弹木琴，视界探测器出现塔罗牌</div></div>"
+    }
+  ]
+}

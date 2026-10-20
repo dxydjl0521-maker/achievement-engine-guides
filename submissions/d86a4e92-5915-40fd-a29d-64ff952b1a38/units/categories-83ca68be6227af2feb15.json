@@ -1,0 +1,56 @@
+{
+  "entityType": "categories",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "categories",
+      "entityId": "guide",
+      "field": "custom",
+      "operation": "update",
+      "before": [
+        {
+          "key": "谜题",
+          "label": "谜题",
+          "color": "#ee00ff"
+        },
+        {
+          "key": "卡片",
+          "label": "卡片",
+          "color": "#ffae00"
+        },
+        {
+          "key": "流程",
+          "label": "流程",
+          "color": "#0056c7"
+        },
+        {
+          "key": "隐藏",
+          "label": "隐藏",
+          "color": "#ff7a45"
+        }
+      ],
+      "after": [
+        {
+          "key": "谜题",
+          "label": "谜题",
+          "color": "#00e1ff"
+        },
+        {
+          "key": "流程",
+          "label": "流程",
+          "color": "#0056c7"
+        },
+        {
+          "key": "隐藏",
+          "label": "隐藏",
+          "color": "#ff7a45"
+        },
+        {
+          "key": "卡片",
+          "label": "卡片",
+          "color": "#ffae00"
+        }
+      ]
+    }
+  ]
+}

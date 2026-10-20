@@ -1,0 +1,14 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_PRINTER",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_PRINTER",
+      "field": "content",
+      "operation": "update",
+      "before": "<div data-img-block=\"\"></div><div><div><div><div><div data-img-block=\"\"><img src=\"assets/4cd58dfa83149450e8d99fec0aa33fa053ce0ac1a87d0a2a4ac8aed47adcf06b.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\"><span>JAHI房间</span><br></div></div></div><div><div data-img-block=\"\"><img src=\"assets/4b6d4853c987c3c0badba6108b425527df97c7890e6bf91464db14791a64ddfb.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">按顺序，从1至7找到并插入所有齿轮</div></div><div><img src=\"assets/6639d38c46ae699235e2bb78882f63590e132cf6137fd3ffe3729aa89efd6c4b.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div></div></div></div><div data-img-block=\"\"></div><div><div><img src=\"assets/249e5caf5060597d68a354b42756b0008faf0f3a9c2b5a61e0be83b5c78dd186.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/d9e7da81c3bdc70d4bd18f68cf056d18628da7141f5cc21ea0d1e420b8085c13.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div></div></div>",
+      "after": "<div data-img-block=\"\"></div><div><div><div><div><div data-img-block=\"\"><img src=\"assets/3a4b3710bf0178b2d7862dbbfdb7280dce0a3491a99970b196d9689781e3aa7a.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\"><span>JAHI房间</span><br></div></div></div><div><div data-img-block=\"\"><img src=\"assets/d2a804bc1d0eedd2936da7e40d414c2570c7516a826206ba1c8ea503f260abf6.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><div data-caption=\"\" style=\"text-align: center\">按顺序，从1至7找到并插入所有齿轮</div></div><div><img src=\"assets/19d27934a0a4052e1fe467aaac7a5dccd30b7ac8352c88648c971fac47cce59b.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div></div></div></div><div data-img-block=\"\"></div><div><div><img src=\"assets/fe712a62eaceb270a68e55237db89cda1dbe0a177f3d21dd7795e1f324dcb34d.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/f232f11993b550d20ff414dd2d88cca0e4f7e76fd987a221bcf9f6f08529095c.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div></div></div>"
+    }
+  ]
+}

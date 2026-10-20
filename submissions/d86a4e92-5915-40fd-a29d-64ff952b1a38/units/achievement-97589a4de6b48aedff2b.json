@@ -1,0 +1,14 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_PLAYER",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_PLAYER",
+      "field": "content",
+      "operation": "update",
+      "before": "<div data-img-block=\"\"><img src=\"assets/9a86c4dfcbf50bf845a40837dc23e4aec4e2a8951c9fe6595debdd9644274e90.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\" loading=\"lazy\" decoding=\"async\"><div data-caption=\"\" style=\"text-align: center;\">集齐7张塔罗牌后，按照塔罗牌罗马数字顺序对应的符号，依次在储物间保险柜旋转转盘</div></div><div><div data-img-block=\"\"><img src=\"assets/ed886ed8f216ac0c08ecc0ebfce1a70a22bb310757800f4c2da50c4d04f0cfd9.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\" loading=\"lazy\" decoding=\"async\"><div data-caption=\"\" style=\"text-align: center;\">获得硬币</div></div><div data-img-block=\"\"><img src=\"assets/45b904f7ddf14d5649f5072baaa315ce69e5b9a34817c23aaafba9b1ecf21ee0.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\" loading=\"lazy\" decoding=\"async\"><div data-caption=\"\" style=\"text-align: center;\">投入游戏机</div></div></div>",
+      "after": "<div data-img-block=\"\"><img src=\"assets/d20d3a5b1e99514f8a10ad49060370be8f529f6246c71defca8e8e1ef482e9cd.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\" loading=\"lazy\" decoding=\"async\"><div data-caption=\"\" style=\"text-align: center;\">集齐7张塔罗牌后，按照塔罗牌罗马数字顺序对应的符号，依次在储物间保险柜旋转转盘</div></div><div><div data-img-block=\"\"><img src=\"assets/76da405933279dc6dea037b9af761398d028e83e357a3637919a31a4ee02842f.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\" loading=\"lazy\" decoding=\"async\"><div data-caption=\"\" style=\"text-align: center;\">获得硬币</div></div><div data-img-block=\"\"><img src=\"assets/bc112b5cd7cc4ec102e65ca0a85c96f7976ece3da096e719d4ef0db87b69b7f7.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\" loading=\"lazy\" decoding=\"async\"><div data-caption=\"\" style=\"text-align: center;\">投入游戏机</div></div></div>"
+    }
+  ]
+}

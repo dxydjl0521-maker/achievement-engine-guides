@@ -1,0 +1,14 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_DEVELOPER",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_DEVELOPER",
+      "field": "content",
+      "operation": "update",
+      "before": "<h2>新一循环，坐列车去大厅（二楼），插入数据卡（提前复制）</h2><h2><div><img src=\"assets/98a5c0e634d3ef0d274aa3a16edfacc8031c8587dd9ef1b7b05cccbc3fc7650c.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/727b96dba418c27541851fc87b012208387de69ef15af2a743bb19df137d00fb.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div></h2>",
+      "after": "<h2>新一循环，坐列车去大厅（二楼），插入数据卡（提前复制）</h2><h2><div><img src=\"assets/eb97cb0b7b625f794f8f2bc456d28e60b92bf9f61158a459391f481edf0c512e.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"><img src=\"assets/be51c44fe76d6bdc297030e17e020fa4a9ce0c18e97e97931e1181a61e04842c.webp\" loading=\"lazy\" decoding=\"async\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\"></div></h2>"
+    }
+  ]
+}

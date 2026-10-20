@@ -1,0 +1,14 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACH_PHOTOGRAPHER",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACH_PHOTOGRAPHER",
+      "field": "content",
+      "operation": "update",
+      "before": "<img src=\"assets/0ccf31f575213310bbf6a300a71ed6a5c505fd8370b6bdc9a5ef3ac8d6e4b11f.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\">",
+      "after": "<img src=\"assets/38fe8e965b1b5c9a27e9d68996e07db3c1f0c2ec2fdac5ee0911c0f8e86b035b.webp\" style=\"width:80%;display:block;border-radius:4px;margin:8px auto;\">"
+    }
+  ]
+}
