@@ -200,6 +200,31 @@
       "releaseId": 418686547,
       "assetId": 660020798,
       "publishedAt": "2026-10-20T17:40:26.568Z"
+    },
+    {
+      "guideId": "4e2ac608-3a83-4975-a118-dfe48060cafa",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "1610440",
+        "title": "Minds Beneath Us"
+      },
+      "guide": {
+        "title": "Minds Beneath Us-全成就攻略（章节流程）",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": ""
+      },
+      "author": {
+        "displayName": "DXYDJL",
+        "githubLogin": "DXYDJL"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.5",
+      "sha256": "f7965e62d7bb6debbd4754371a576bc64c3161acd23e27d00cb938d52a2a2808",
+      "releaseId": 418687009,
+      "assetId": 660021842,
+      "publishedAt": "2026-10-20T17:40:56.542Z"
     }
   ]
 }
