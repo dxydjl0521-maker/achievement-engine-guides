@@ -109,7 +109,7 @@ for (const { filename, record } of records) {
     console.log(JSON.stringify(audit));
     if (process.env.GITHUB_STEP_SUMMARY) {
       const { appendFileSync } = await import('node:fs');
-      appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### One-time owner recovery\n- Actor: ${recoveryActor}\n- Submission: ${record.submissionId}\n- Package SHA-256: `${record.packageSha256}`\n- Reason: ${recoveryReason}\n\n`);
+      appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### One-time owner recovery\n- Actor: ${recoveryActor}\n- Submission: ${record.submissionId}\n- Package SHA-256: ${record.packageSha256}\n- Reason: ${recoveryReason}\n\n`);
     }
   }
 
