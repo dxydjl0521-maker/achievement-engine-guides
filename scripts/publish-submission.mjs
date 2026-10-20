@@ -81,10 +81,12 @@ for (const { filename, record } of records) {
     && login !== contributorLogin
     && review.state === 'APPROVED' && review.commit_id === pr.head.sha);
   // GitHub has no self-approval event, so verify the owner submitted and personally merged this PR.
-  const ownerSelfMerge = contributorLogin === GUIDE_OWNER_LOGIN
-    && pr.merged_by?.login?.toLowerCase() === GUIDE_OWNER_LOGIN;
-  if (!approved && !ownerSelfMerge)
-    throw new Error('An authorized reviewer must approve this contribution, or the repository owner must merge their own submission');
+  const mergedByLogin = pr.merged_by?.login?.toLowerCase() || '';
+  const authorizedMerge = GUIDE_REVIEWER_LOGINS.has(mergedByLogin);
+  // GitHub has no self-approval event, so verify the owner submitted and personally merged this PR.
+  const ownerSelfMerge = contributorLogin === GUIDE_OWNER_LOGIN && mergedByLogin === GUIDE_OWNER_LOGIN;
+  if (!ownerSelfMerge && (!approved || !authorizedMerge))
+    throw new Error('An authorized reviewer must approve this contribution and an authorized account must merge it');
 
   const release = await gh('GET', `/releases/${record.draftReleaseId}`);
   const asset = release?.assets?.find((item) => item.id === record.assetId);
