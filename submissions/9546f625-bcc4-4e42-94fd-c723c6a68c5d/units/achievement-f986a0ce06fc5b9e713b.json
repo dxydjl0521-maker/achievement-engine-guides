@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "BEGINNERS_LUCK",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "BEGINNERS_LUCK",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "BEGINNERS_LUCK"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BEGINNERS_LUCK",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BEGINNERS_LUCK",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BEGINNERS_LUCK",
+      "field": "note",
+      "operation": "add",
+      "after": "在新档的第一个循环内到达宇宙之眼。\n流程：\n①切新档；\n②去博物馆拿发射机密码；\n③前往余烬双星二号救生舱获取求救信号；\n④前往灰烬双星跃迁塔进入核心舱室拿高级跃迁核心；\n⑤前往黑棘星利用信号找到三号救生舱，再找到挪麦宇宙飞船；\n⑥放上高级跃迁核心，输入密码前往宇宙之眼。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "BEGINNERS_LUCK",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}

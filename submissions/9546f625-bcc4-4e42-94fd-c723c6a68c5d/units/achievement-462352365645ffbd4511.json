@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "CUTTING_IT_CLOSE",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "CUTTING_IT_CLOSE",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "CUTTING_IT_CLOSE"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CUTTING_IT_CLOSE",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CUTTING_IT_CLOSE",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CUTTING_IT_CLOSE",
+      "field": "note",
+      "operation": "add",
+      "after": "把太空服的燃气用光，用氧气起飞。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CUTTING_IT_CLOSE",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

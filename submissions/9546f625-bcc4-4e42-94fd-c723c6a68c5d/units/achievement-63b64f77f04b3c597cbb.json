@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACHIEVEMENT_12",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_12",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACHIEVEMENT_12"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_12",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_12",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_12",
+      "field": "note",
+      "operation": "add",
+      "after": "熄灭无尽峡谷屋顶最上方的蜡烛。通过隐藏画熄灯，吸引楼顶鹿人后迅速上楼跳窗上屋顶。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_12",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

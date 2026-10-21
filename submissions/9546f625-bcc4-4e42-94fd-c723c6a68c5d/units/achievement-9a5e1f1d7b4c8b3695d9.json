@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACHIEVEMENT_14",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_14",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACHIEVEMENT_14"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_14",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_14",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_14",
+      "field": "note",
+      "operation": "add",
+      "after": "在离灯状态下被鹿人抓住。推荐在隐秘峡谷（无尽峡谷），通过隐藏画熄灯后直奔楼顶的鹿人。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_14",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

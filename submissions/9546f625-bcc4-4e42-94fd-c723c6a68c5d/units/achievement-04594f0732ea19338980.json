@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "TERRIBLE_FATE",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "TERRIBLE_FATE",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "TERRIBLE_FATE"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TERRIBLE_FATE",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TERRIBLE_FATE",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TERRIBLE_FATE",
+      "field": "note",
+      "operation": "add",
+      "after": "去余烬双星的高能实验室玩跃迁实验装置。上楼把功率调大，在侦察兵还没进黑洞时把黑洞核心取下。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TERRIBLE_FATE",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

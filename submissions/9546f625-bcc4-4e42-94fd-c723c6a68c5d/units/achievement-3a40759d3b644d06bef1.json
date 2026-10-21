@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACHIEVEMENT_4",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_4",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACHIEVEMENT_4"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_4",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_4",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_4",
+      "field": "note",
+      "operation": "add",
+      "after": "在被摧毁的实验室最右边箱子中找到第二类文物，用它进入里世界。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_4",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

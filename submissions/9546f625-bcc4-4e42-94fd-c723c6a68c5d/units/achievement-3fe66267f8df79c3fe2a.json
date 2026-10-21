@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACHIEVEMENT_1",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_1",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACHIEVEMENT_1"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_1",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_1",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_1",
+      "field": "note",
+      "operation": "add",
+      "after": "在90秒内绕太空站一圈。睡十分钟后飞到太空站用电梯到达大坝处，用大坝前的船靠近大坝，等待大坝崩塌瞬间冲出去。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_1",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}

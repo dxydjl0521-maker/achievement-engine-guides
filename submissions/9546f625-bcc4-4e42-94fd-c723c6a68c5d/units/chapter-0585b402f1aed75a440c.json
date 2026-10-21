@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvhtjw29i",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvhtjw29i",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvhtjw29i",
+      "field": "chapter",
+      "operation": "add",
+      "after": "DLC"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvhtjw29i",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvhtjw29i",
+      "field": "description",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvhtjw29i",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

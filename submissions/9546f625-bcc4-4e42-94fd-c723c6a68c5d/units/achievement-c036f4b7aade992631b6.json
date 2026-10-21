@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ALPHA_PILOT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ALPHA_PILOT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ALPHA_PILOT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ALPHA_PILOT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ALPHA_PILOT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ALPHA_PILOT",
+      "field": "note",
+      "operation": "add",
+      "after": "直接飞到太阳站。步骤：\n①标记太阳站，穿宇航服；\n②起飞调整飞船角度，使飞船正对太阳中心，太阳站垂直于视线从下往上飞；\n③靠近到4000米左右，速度在0左右跳动，此后不要用匹配速度而用后推；\n④同步太阳站速度，调整视角中心对准太阳中心，使太阳距离在3000米左右；\n⑤太阳站从太阳下面露头时靠近，视角从太阳转移到太阳站；\n⑥锁定进站口逐步靠近，等待太阳风从下往上吹时解开安全带，用紧急脱离按钮飞出飞船，锁定进站口缓慢移动进站。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ALPHA_PILOT",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}

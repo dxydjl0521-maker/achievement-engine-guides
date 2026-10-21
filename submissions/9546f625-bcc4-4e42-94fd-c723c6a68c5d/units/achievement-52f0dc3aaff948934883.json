@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "YOU_TRIED",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "YOU_TRIED",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "YOU_TRIED"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "YOU_TRIED",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "YOU_TRIED",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "YOU_TRIED",
+      "field": "note",
+      "operation": "add",
+      "after": "逃离太阳系直到循环结束。一直开飞船远离太阳系，中途可拿出信号仪听音乐。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "YOU_TRIED",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "WHATS_THIS_BUTTON",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "WHATS_THIS_BUTTON",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "WHATS_THIS_BUTTON"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "WHATS_THIS_BUTTON",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "WHATS_THIS_BUTTON",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "WHATS_THIS_BUTTON",
+      "field": "note",
+      "operation": "add",
+      "after": "进入飞船驾驶舱，在控制面板右前方按下紧急脱离按钮。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "WHATS_THIS_BUTTON",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

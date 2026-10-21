@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "RIGIDBODY",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "RIGIDBODY",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "RIGIDBODY"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RIGIDBODY",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RIGIDBODY",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RIGIDBODY",
+      "field": "note",
+      "operation": "add",
+      "after": "撞击木炉星的环绕卫星。方法：沿着木炉星飞，看到快速移动的白色小点就追上并撞上去。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "RIGIDBODY",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}

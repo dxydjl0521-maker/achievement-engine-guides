@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACHIEVEMENT_5",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_5",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACHIEVEMENT_5"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_5",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_5",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_5",
+      "field": "note",
+      "operation": "add",
+      "after": "到达大坝处，大坝左右两边水底下都有洞，潜水通过即可。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_5",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

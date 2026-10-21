@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACHIEVEMENT_8",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_8",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACHIEVEMENT_8"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_8",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_8",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_8",
+      "field": "note",
+      "operation": "add",
+      "after": "在鹿人未发觉的情况下进入三个禁档案室。类比DLC最后解谜的三道锁：无尽峡谷需在开始处熄灯，通过壁画时不要回头；星光海湾不需熄灯即可进入；覆盖林地跳下河后直接连着禁档案室，需坐一次电梯往返（电梯下降触发进入判定）。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_8",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

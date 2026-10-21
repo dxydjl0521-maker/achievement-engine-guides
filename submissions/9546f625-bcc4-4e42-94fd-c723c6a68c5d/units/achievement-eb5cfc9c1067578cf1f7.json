@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "MICAS_WRATH",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "MICAS_WRATH",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "MICAS_WRATH"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MICAS_WRATH",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MICAS_WRATH",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MICAS_WRATH",
+      "field": "note",
+      "operation": "add",
+      "after": "将模型飞机飞进太阳烧毁。从特定视角观察，看到太阳露出来一点后控制飞机垂直飞行一直不放手，直到飞进太阳。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MICAS_WRATH",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}

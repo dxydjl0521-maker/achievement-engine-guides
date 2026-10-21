@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "DEEP_IMPACT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "DEEP_IMPACT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "DEEP_IMPACT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DEEP_IMPACT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DEEP_IMPACT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DEEP_IMPACT",
+      "field": "note",
+      "operation": "add",
+      "after": "不通过龙卷风以相当快的速度冲进深巨星深水层。方法：等岛起飞后飞到岛下方随岛一起进入，或用飞船从远处加速冲入。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DEEP_IMPACT",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}

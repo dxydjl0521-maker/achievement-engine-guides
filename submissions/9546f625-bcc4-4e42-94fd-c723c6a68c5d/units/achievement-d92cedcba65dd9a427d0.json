@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "DIEHARD",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "DIEHARD",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "DIEHARD"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DIEHARD",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DIEHARD",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DIEHARD",
+      "field": "note",
+      "operation": "add",
+      "after": "受到超过一千的伤害并治愈，活过一个循环。将飞船降落在篝火上，门对着篝火，站在火上烤，快死时按烤棉花糖回飞船补血，循环15-20次后睡到自然醒。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "DIEHARD",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACHIEVEMENT_9",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_9",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACHIEVEMENT_9"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_9",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_9",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_9",
+      "field": "note",
+      "operation": "add",
+      "after": "在梦境中通过五次不同方式醒来。可尝试：跳水、摔死、站火上烧死、警报铃吵醒、鹿人吹灯、洪水弄醒、电梯压死、鹿人松骨、离灯跳水等。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_9",
+      "field": "type",
+      "operation": "add",
+      "after": "累计"
+    }
+  ]
+}

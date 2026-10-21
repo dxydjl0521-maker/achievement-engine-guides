@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACHIEVEMENT_7",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_7",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACHIEVEMENT_7"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_7",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_7",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_7",
+      "field": "note",
+      "operation": "add",
+      "after": "在太空站中随便拿一个灯幻片卷轴，拿到鹿人火堆处烧掉。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_7",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

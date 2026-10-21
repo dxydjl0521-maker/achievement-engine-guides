@@ -1,0 +1,27 @@
+{
+  "entityType": "notes",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "missable",
+      "operation": "add",
+      "after": []
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "new_game_plus",
+      "operation": "add",
+      "after": "循环周目"
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "tips",
+      "operation": "add",
+      "after": "游戏无存档机制，既然你要做全成就，那么你一定也是一位想成为一名飞行高手的哈斯鱼，那么，赶快加入飞行高手的行列吧。\n\n小黑和参考帖子攻略\nhttps://api.xiaoheihe.cn/v3/bbs/app/api/web/share?h_camp=link&h_src=YXBwX3NoYXJl&link_id=251571dc75ad&new_post_share_style=true"
+    }
+  ]
+}

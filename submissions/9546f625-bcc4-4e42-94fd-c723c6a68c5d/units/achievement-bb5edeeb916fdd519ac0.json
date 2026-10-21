@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACHIEVEMENT_10",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_10",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACHIEVEMENT_10"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_10",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_10",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_10",
+      "field": "note",
+      "operation": "add",
+      "after": "在太空站随便拿一个进入鹿人梦境的文物，拿回木炉星出生点的篝火处睡觉。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_10",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}
