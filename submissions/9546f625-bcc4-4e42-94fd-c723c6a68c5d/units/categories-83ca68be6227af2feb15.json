@@ -1,0 +1,31 @@
+{
+  "entityType": "categories",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "categories",
+      "entityId": "guide",
+      "field": "custom",
+      "operation": "add",
+      "after": [
+        {
+          "key": "累计",
+          "label": "累计",
+          "color": "#0bd8f4"
+        },
+        {
+          "key": "boss",
+          "label": "Boss",
+          "color": "#ff0000"
+        }
+      ]
+    },
+    {
+      "entityType": "categories",
+      "entityId": "guide",
+      "field": "presets",
+      "operation": "add",
+      "after": {}
+    }
+  ]
+}

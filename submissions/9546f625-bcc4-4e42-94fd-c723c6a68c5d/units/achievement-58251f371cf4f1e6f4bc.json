@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACHIEVEMENT_3",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_3",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACHIEVEMENT_3"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_3",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_3",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_3",
+      "field": "note",
+      "operation": "add",
+      "after": "乘风破浪15秒。睡十分钟后飞到太空站开船，靠边到杂草处推船使草位于船正中心，人草灯三点一线对准陆地与水面的分界线。大坝崩塌后海浪压住时后退出水，开灯照右边的灯躲第一撞击点，再照左边的灯躲第二撞击点，依次躲过五个撞击点后跳成就。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_3",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}

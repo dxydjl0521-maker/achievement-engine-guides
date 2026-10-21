@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "GONE_IN_60_SECONDS",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "GONE_IN_60_SECONDS",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "GONE_IN_60_SECONDS"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "GONE_IN_60_SECONDS",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "GONE_IN_60_SECONDS",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "GONE_IN_60_SECONDS",
+      "field": "note",
+      "operation": "add",
+      "after": "开局快速死就行了，直接站火堆上或者跳楼自杀。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "GONE_IN_60_SECONDS",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "HEARTH_TO_MOON",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "HEARTH_TO_MOON",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "HEARTH_TO_MOON"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HEARTH_TO_MOON",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HEARTH_TO_MOON",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HEARTH_TO_MOON",
+      "field": "note",
+      "operation": "add",
+      "after": "将模型飞机飞到月球，只要碰到即可。醒来打盹睡50秒，然后直奔模型飞船操作台垂直向上飞。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HEARTH_TO_MOON",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}

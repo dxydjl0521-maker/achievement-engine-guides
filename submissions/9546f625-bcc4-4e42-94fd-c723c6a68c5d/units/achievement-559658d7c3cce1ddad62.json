@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACHIEVEMENT_11",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_11",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACHIEVEMENT_11"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_11",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_11",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_11",
+      "field": "note",
+      "operation": "add",
+      "after": "将侦察兵射到太空站中的大灯上。推荐点位：从摧毁的实验室进入隐秘峡谷，在栅栏拐角点跳上去，用信号仪对准目标位置切换侦察兵发射。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_11",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}

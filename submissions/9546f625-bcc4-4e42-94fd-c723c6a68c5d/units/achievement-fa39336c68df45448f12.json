@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "HARMONIC_CONVERGENCE",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "HARMONIC_CONVERGENCE",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "HARMONIC_CONVERGENCE"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HARMONIC_CONVERGENCE",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HARMONIC_CONVERGENCE",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HARMONIC_CONVERGENCE",
+      "field": "note",
+      "operation": "add",
+      "after": "用信号仪同时观测到所有人的音乐。可与这值得一试一起做。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "HARMONIC_CONVERGENCE",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

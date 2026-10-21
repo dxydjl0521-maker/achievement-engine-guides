@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "MUSEUM",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "MUSEUM",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "MUSEUM"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MUSEUM",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MUSEUM",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MUSEUM",
+      "field": "note",
+      "operation": "add",
+      "after": "将跃迁核心拿回博物馆。在高能实验室把黑洞核心或白洞核心拿了，带回木炉星的博物馆。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "MUSEUM",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

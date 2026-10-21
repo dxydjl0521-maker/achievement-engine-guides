@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ACHIEVEMENT_13",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_13",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ACHIEVEMENT_13"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_13",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_13",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_13",
+      "field": "note",
+      "operation": "add",
+      "after": "在鹿人抓你的时候跳水自杀。推荐在无尽峡谷，隐藏画熄灯后吸引鹿人2，在鹿人快抓住时从有两把椅子的阳台跳水。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ACHIEVEMENT_13",
+      "field": "type",
+      "operation": "add",
+      "after": "difficulty"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "PCHOOOOOOO",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "PCHOOOOOOO",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "PCHOOOOOOO"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PCHOOOOOOO",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PCHOOOOOOO",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PCHOOOOOOO",
+      "field": "note",
+      "operation": "add",
+      "after": "用重力炮发射飞船。推荐余烬双星的重力炮，发射后会解锁一条飞行日志。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PCHOOOOOOO",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

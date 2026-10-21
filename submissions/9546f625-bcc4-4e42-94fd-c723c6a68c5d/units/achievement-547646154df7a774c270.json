@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "STUDIOUS",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "STUDIOUS",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "STUDIOUS"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "STUDIOUS",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "STUDIOUS",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "STUDIOUS",
+      "field": "note",
+      "operation": "add",
+      "after": "解锁所有的飞船日志（不含DLC）。\n注意：\n①余烬双星切特的营地——先去宇宙之眼通关后，循环早期和他对话告诉他太阳将毁灭，循环后期再对话听观测结果；\n②量子卫星第六个位置——把所有石块排列组合；\n③木炉星黑棘星种子处——拿信号镜听音乐。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "STUDIOUS",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}

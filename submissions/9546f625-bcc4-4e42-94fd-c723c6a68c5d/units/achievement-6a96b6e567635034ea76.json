@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "CARCINOGENS",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "CARCINOGENS",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "CARCINOGENS"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CARCINOGENS",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CARCINOGENS",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CARCINOGENS",
+      "field": "note",
+      "operation": "add",
+      "after": "连续吃十个烤焦的棉花糖。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CARCINOGENS",
+      "field": "type",
+      "operation": "add",
+      "after": "累计"
+    }
+  ]
+}
