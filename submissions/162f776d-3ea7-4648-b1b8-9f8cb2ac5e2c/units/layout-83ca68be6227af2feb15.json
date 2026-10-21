@@ -1,0 +1,18 @@
+{
+  "entityType": "layout",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "guide",
+      "field": "chapterOrder",
+      "operation": "add",
+      "after": [
+        "chapter-ONTO_THE_ICE",
+        "chapter-DIPLOMATIC_RELATIONS",
+        "chapter-WAKE_UP",
+        "chapter-FIN"
+      ]
+    }
+  ]
+}

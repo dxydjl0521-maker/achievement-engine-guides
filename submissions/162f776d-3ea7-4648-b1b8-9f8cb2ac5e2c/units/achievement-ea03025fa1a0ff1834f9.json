@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "SLEUTH",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "SLEUTH",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "SLEUTH"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SLEUTH",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SLEUTH",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SLEUTH",
+      "field": "note",
+      "operation": "add",
+      "after": "发现英国基地中的所有物品"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SLEUTH",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

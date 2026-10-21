@@ -1,0 +1,17 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-WAKE_UP",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-WAKE_UP",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "TOY_GENERAL",
+        "PILOT",
+        "CARTOGRAPHER"
+      ]
+    }
+  ]
+}

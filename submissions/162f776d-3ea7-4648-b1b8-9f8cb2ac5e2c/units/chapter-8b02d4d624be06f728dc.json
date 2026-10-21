@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-WAKE_UP",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-WAKE_UP",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "WAKE_UP"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-WAKE_UP",
+      "field": "chapter",
+      "operation": "add",
+      "after": "苏醒"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-WAKE_UP",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-WAKE_UP",
+      "field": "description",
+      "operation": "add",
+      "after": "完成第三章故事你"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-WAKE_UP",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

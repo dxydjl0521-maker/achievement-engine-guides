@@ -1,0 +1,16 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-FIN",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-FIN",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "SCHOLAR",
+        "SURVIVOR"
+      ]
+    }
+  ]
+}

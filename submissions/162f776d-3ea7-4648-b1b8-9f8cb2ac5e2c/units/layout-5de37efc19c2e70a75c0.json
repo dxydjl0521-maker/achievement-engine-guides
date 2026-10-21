@@ -1,0 +1,15 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-DIPLOMATIC_RELATIONS",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-DIPLOMATIC_RELATIONS",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "SLEUTH"
+      ]
+    }
+  ]
+}

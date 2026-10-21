@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "SCHOLAR",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "SCHOLAR",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "SCHOLAR"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SCHOLAR",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SCHOLAR",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SCHOLAR",
+      "field": "note",
+      "operation": "add",
+      "after": "研究游戏中的所有物体"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SCHOLAR",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

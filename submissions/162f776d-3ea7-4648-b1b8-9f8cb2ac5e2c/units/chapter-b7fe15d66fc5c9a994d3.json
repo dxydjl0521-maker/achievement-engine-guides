@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-FIN",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-FIN",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "FIN"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-FIN",
+      "field": "chapter",
+      "operation": "add",
+      "after": "终"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-FIN",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-FIN",
+      "field": "description",
+      "operation": "add",
+      "after": "完成游戏"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-FIN",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}
