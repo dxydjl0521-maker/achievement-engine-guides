@@ -250,6 +250,31 @@
       "releaseId": 418689745,
       "assetId": 660028869,
       "publishedAt": "2026-10-20T17:44:06.240Z"
+    },
+    {
+      "guideId": "2b9e7c43-09fd-4db0-8572-29a46dd71b87",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "1811040",
+        "title": "South of the Circle"
+      },
+      "guide": {
+        "title": "South of the Circle-全成就攻略（章节流程）",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": ""
+      },
+      "author": {
+        "displayName": "dxydjl0521-maker",
+        "githubLogin": "dxydjl0521-maker"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.5",
+      "sha256": "da1f50a372d9fc5c0842da88ee951536be7ef9f7db27caddbfcfcc57f875e3df",
+      "releaseId": 419265950,
+      "assetId": 661699594,
+      "publishedAt": "2026-10-21T07:24:22.672Z"
     }
   ]
 }
