@@ -62,37 +62,49 @@ for (const unit of record.changeFiles) {
     throw new Error('Contribution unit invalid');
 }
 const assetRepository = record.assetRepository || repository;
-const release = await ghRepo(assetRepository, 'GET', `/releases/${record.draftReleaseId}`);
-const asset = release?.assets?.find((item) => item.id === record.assetId);
-const expectedTag = record.assetRepository ? `submission-${record.submissionId}`
-  : `guide-${record.guideId}-v${record.version}`;
-const expectedName = record.assetName || `${record.guideId}-v${record.version}.aeguide`;
-if (!release || !asset || release.tag_name !== expectedTag || asset.name !== expectedName
-  || record.assetRepository && assetRepository !== repository && (release.draft || !release.prerelease))
-  throw new Error('Release asset does not match reviewed metadata');
-const directory = await mkdtemp(path.join(tmpdir(), 'ae-validate-'));
-try {
-  const filePath = path.join(directory, 'submission.aeguide');
-  const downloaded = await ghDownloadToFile(`/releases/assets/${asset.id}`, filePath,
-    500_000_000, assetRepository);
-  if (downloaded.size !== asset.size || downloaded.sha256 !== record.packageSha256)
-    throw new Error('Release asset hash mismatch');
-  const parsed = await inspectAeguideFile(filePath, appVersion);
-  if (JSON.stringify(parsed.manifest) !== JSON.stringify(record.manifest))
-    throw new Error('Release manifest differs from reviewed PR');
-  await validateImages(filePath, parsed);
-} finally { await rm(directory, { recursive: true, force: true }); }
+// A maintainer posting from the official repository keeps the source package
+// in a draft Release. The read-only pull_request token cannot read drafts, so
+// the publish workflow repeats full package validation with its write token
+// before it makes the release or catalog entry public.
+const packageValidationDeferred = record.assetRepository?.toLowerCase() === repository.toLowerCase();
+if (packageValidationDeferred) {
+  console.log('Official-repository draft package will be validated by the publish workflow');
+} else {
+  const release = await ghRepo(assetRepository, 'GET', `/releases/${record.draftReleaseId}`);
+  const asset = release?.assets?.find((item) => item.id === record.assetId);
+  const expectedTag = record.assetRepository ? `submission-${record.submissionId}`
+    : `guide-${record.guideId}-v${record.version}`;
+  const expectedName = record.assetName || `${record.guideId}-v${record.version}.aeguide`;
+  if (!release || !asset || release.tag_name !== expectedTag || asset.name !== expectedName
+    || record.assetRepository && (release.draft || !release.prerelease))
+    throw new Error('Release asset does not match reviewed metadata');
+  const directory = await mkdtemp(path.join(tmpdir(), 'ae-validate-'));
+  try {
+    const filePath = path.join(directory, 'submission.aeguide');
+    const downloaded = await ghDownloadToFile(`/releases/assets/${asset.id}`, filePath,
+      500_000_000, assetRepository);
+    if (downloaded.size !== asset.size || downloaded.sha256 !== record.packageSha256)
+      throw new Error('Release asset hash mismatch');
+    const parsed = await inspectAeguideFile(filePath, appVersion);
+    if (JSON.stringify(parsed.manifest) !== JSON.stringify(record.manifest))
+      throw new Error('Release manifest differs from reviewed PR');
+    await validateImages(filePath, parsed);
+  } finally { await rm(directory, { recursive: true, force: true }); }
+}
 const summary = [
   '### 攻略投稿自动检查通过',
   `- 游戏：${record.manifest.game.title}`,
   `- 攻略：${record.manifest.guide.title} v${record.version}`,
-  `- 图片：${record.manifest.assets.length} 张`,
+  ...(packageValidationDeferred ? [] : [`- 图片：${record.manifest.assets.length} 张`]),
   `- 包 SHA-256：\`${record.packageSha256}\``,
   '',
-  '工作流已校验包结构、作者身份、许可证、HTML 和完整资源哈希。请维护者人工审核并合并；合并后发布工作流会再次校验。',
+  packageValidationDeferred
+    ? '只读 PR 工作流无法访问主仓库的未发布草稿；完整攻略包、图片和摘要会在合并后由发布工作流校验，通过后才公开。请维护者继续人工审核。'
+    : '工作流已校验包结构、作者身份、许可证、HTML 和完整资源哈希。请维护者人工审核并合并；合并后发布工作流会再次校验。',
 ].join('\n');
 if (process.env.GITHUB_STEP_SUMMARY) {
   const { appendFileSync } = await import('node:fs');
   appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary + '\n');
 }
 console.log('Submission metadata passed');
+
