@@ -1,0 +1,54 @@
+{
+  "submissionId": "d50ce37a-b964-4910-9606-e34b4c6ceea4",
+  "guideId": "c8206cdb-336c-4def-bdd0-140c767fa066",
+  "version": "1.0.1",
+  "packageSha256": "9e71d1f22d298d44b23c4ecbc745e281bd67e4e835e5790ed882f1b563dd02a0",
+  "draftReleaseId": 419299510,
+  "assetId": 661794888,
+  "assetRepository": "DXYDJL/achievement-engine-guides",
+  "assetName": "d50ce37a-b964-4910-9606-e34b4c6ceea4.aeguide",
+  "manifest": {
+    "format": "aeguide",
+    "schemaVersion": 1,
+    "guideId": "c8206cdb-336c-4def-bdd0-140c767fa066",
+    "version": "1.0.1",
+    "game": {
+      "platform": "steam",
+      "platformGameId": "753640",
+      "title": "Outer Wilds"
+    },
+    "guide": {
+      "title": "Outer Wilds-全成就攻略（默认攻略）",
+      "type": "workflow",
+      "language": "zh-CN",
+      "summary": ""
+    },
+    "compatibility": {
+      "minAppVersion": "0.8.5"
+    },
+    "author": {
+      "displayName": "DXYDJL",
+      "githubLogin": "DXYDJL"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "contentFile": "guide.json",
+    "contentSha256": "227d1ab62e762d221d19ab16d391a46297efeb709a5f2b31818b4aacc6b0d9e7",
+    "assets": []
+  },
+  "submittedAt": "2026-10-21T08:06:58.978Z",
+  "baseRevision": "6ffae512b076b57a77f47528dda49b9f97e70415acbf265dab693f51e8658acc",
+  "contributor": {
+    "userId": 106290147,
+    "githubLogin": "DXYDJL"
+  },
+  "changeFiles": [
+    {
+      "path": "submissions/d50ce37a-b964-4910-9606-e34b4c6ceea4/units/layout-97feef10a1e02894a3f3.json",
+      "sha256": "852db2641940a4b2c937e3cc94165ba931124db6cbabc9bab2ddb8b39ce7c5f1"
+    },
+    {
+      "path": "submissions/d50ce37a-b964-4910-9606-e34b4c6ceea4/units/layout-0585b402f1aed75a440c.json",
+      "sha256": "a1ebe12f03a8892d524418a147fd236eb9e096fa9b4e8cbbc442c1e86a262022"
+    }
+  ]
+}

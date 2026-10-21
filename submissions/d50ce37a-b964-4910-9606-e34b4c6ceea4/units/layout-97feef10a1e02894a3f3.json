@@ -1,0 +1,50 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvhtjw290",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvhtjw290",
+      "field": "achievementOrder",
+      "operation": "update",
+      "before": [
+        "GONE_IN_60_SECONDS",
+        "CARCINOGENS",
+        "CUTTING_IT_CLOSE",
+        "WHATS_THIS_BUTTON",
+        "RIGIDBODY",
+        "HEARTH_TO_MOON",
+        "MICAS_WRATH",
+        "DIEHARD",
+        "HARMONIC_CONVERGENCE",
+        "YOU_TRIED",
+        "PCHOOOOOOO",
+        "TERRIBLE_FATE",
+        "MUSEUM",
+        "DEEP_IMPACT",
+        "STUDIOUS",
+        "BEGINNERS_LUCK",
+        "ALPHA_PILOT"
+      ],
+      "after": [
+        "GONE_IN_60_SECONDS",
+        "CARCINOGENS",
+        "DIEHARD",
+        "HARMONIC_CONVERGENCE",
+        "CUTTING_IT_CLOSE",
+        "RIGIDBODY",
+        "PCHOOOOOOO",
+        "MICAS_WRATH",
+        "YOU_TRIED",
+        "WHATS_THIS_BUTTON",
+        "HEARTH_TO_MOON",
+        "ALPHA_PILOT",
+        "TERRIBLE_FATE",
+        "MUSEUM",
+        "STUDIOUS",
+        "DEEP_IMPACT",
+        "BEGINNERS_LUCK"
+      ]
+    }
+  ]
+}

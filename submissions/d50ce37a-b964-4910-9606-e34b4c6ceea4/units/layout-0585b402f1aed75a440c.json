@@ -1,0 +1,44 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvhtjw29i",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvhtjw29i",
+      "field": "achievementOrder",
+      "operation": "update",
+      "before": [
+        "ACHIEVEMENT_2",
+        "ACHIEVEMENT_6",
+        "ACHIEVEMENT_7",
+        "ACHIEVEMENT_10",
+        "ACHIEVEMENT_5",
+        "ACHIEVEMENT_4",
+        "ACHIEVEMENT_11",
+        "ACHIEVEMENT_14",
+        "ACHIEVEMENT_12",
+        "ACHIEVEMENT_13",
+        "ACHIEVEMENT_9",
+        "ACHIEVEMENT_8",
+        "ACHIEVEMENT_1",
+        "ACHIEVEMENT_3"
+      ],
+      "after": [
+        "ACHIEVEMENT_14",
+        "ACHIEVEMENT_2",
+        "ACHIEVEMENT_5",
+        "ACHIEVEMENT_4",
+        "ACHIEVEMENT_11",
+        "ACHIEVEMENT_10",
+        "ACHIEVEMENT_6",
+        "ACHIEVEMENT_7",
+        "ACHIEVEMENT_1",
+        "ACHIEVEMENT_3",
+        "ACHIEVEMENT_9",
+        "ACHIEVEMENT_13",
+        "ACHIEVEMENT_12",
+        "ACHIEVEMENT_8"
+      ]
+    }
+  ]
+}
