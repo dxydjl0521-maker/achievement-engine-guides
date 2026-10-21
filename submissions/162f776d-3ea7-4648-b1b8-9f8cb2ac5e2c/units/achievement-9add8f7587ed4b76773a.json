@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "CARTOGRAPHER",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "CARTOGRAPHER",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "CARTOGRAPHER"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CARTOGRAPHER",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CARTOGRAPHER",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CARTOGRAPHER",
+      "field": "note",
+      "operation": "add",
+      "after": "研究所有地图"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "CARTOGRAPHER",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

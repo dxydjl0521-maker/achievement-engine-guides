@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "TOY_GENERAL",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "TOY_GENERAL",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "TOY_GENERAL"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TOY_GENERAL",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TOY_GENERAL",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TOY_GENERAL",
+      "field": "note",
+      "operation": "add",
+      "after": "玩小兵人"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "TOY_GENERAL",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

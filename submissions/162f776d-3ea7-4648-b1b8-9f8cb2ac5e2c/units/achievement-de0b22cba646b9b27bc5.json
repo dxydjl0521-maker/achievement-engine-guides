@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "SURVIVOR",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "SURVIVOR",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "SURVIVOR"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SURVIVOR",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SURVIVOR",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SURVIVOR",
+      "field": "note",
+      "operation": "add",
+      "after": "下定决心活下去"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "SURVIVOR",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

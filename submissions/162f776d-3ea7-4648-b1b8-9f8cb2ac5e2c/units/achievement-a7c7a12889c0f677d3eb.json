@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "PILOT",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "PILOT",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "PILOT"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PILOT",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PILOT",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PILOT",
+      "field": "note",
+      "operation": "add",
+      "after": "驾驶Peter的玩具飞机"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "PILOT",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

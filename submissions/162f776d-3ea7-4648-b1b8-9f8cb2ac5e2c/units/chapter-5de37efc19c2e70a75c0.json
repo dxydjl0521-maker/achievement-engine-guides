@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-DIPLOMATIC_RELATIONS",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-DIPLOMATIC_RELATIONS",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "DIPLOMATIC_RELATIONS"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-DIPLOMATIC_RELATIONS",
+      "field": "chapter",
+      "operation": "add",
+      "after": "外交关系"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-DIPLOMATIC_RELATIONS",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-DIPLOMATIC_RELATIONS",
+      "field": "description",
+      "operation": "add",
+      "after": "完成第二章故事"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-DIPLOMATIC_RELATIONS",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

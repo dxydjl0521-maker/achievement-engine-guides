@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-ONTO_THE_ICE",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ONTO_THE_ICE",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ONTO_THE_ICE"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ONTO_THE_ICE",
+      "field": "chapter",
+      "operation": "add",
+      "after": "冰面穿行"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ONTO_THE_ICE",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ONTO_THE_ICE",
+      "field": "description",
+      "operation": "add",
+      "after": "开始求救之旅"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-ONTO_THE_ICE",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

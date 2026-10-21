@@ -1,0 +1,114 @@
+{
+  "submissionId": "162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c",
+  "guideId": "2b9e7c43-09fd-4db0-8572-29a46dd71b87",
+  "version": "1.0.0",
+  "packageSha256": "da1f50a372d9fc5c0842da88ee951536be7ef9f7db27caddbfcfcc57f875e3df",
+  "draftReleaseId": 419232273,
+  "assetId": 661603050,
+  "assetRepository": "dxydjl0521-maker/achievement-engine-guides",
+  "assetName": "162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c.aeguide",
+  "manifest": {
+    "format": "aeguide",
+    "schemaVersion": 1,
+    "guideId": "2b9e7c43-09fd-4db0-8572-29a46dd71b87",
+    "version": "1.0.0",
+    "game": {
+      "platform": "steam",
+      "platformGameId": "1811040",
+      "title": "South of the Circle"
+    },
+    "guide": {
+      "title": "South of the Circle-全成就攻略（章节流程）",
+      "type": "workflow",
+      "language": "zh-CN",
+      "summary": ""
+    },
+    "compatibility": {
+      "minAppVersion": "0.8.5"
+    },
+    "author": {
+      "displayName": "dxydjl0521-maker",
+      "githubLogin": "dxydjl0521-maker"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "contentFile": "guide.json",
+    "contentSha256": "5aa1e2e1bdf09d4bec4d3b9c0cfef045c454d1212b94221514562c604d41d7d4",
+    "assets": []
+  },
+  "submittedAt": "2026-10-21T06:38:07.349Z",
+  "baseRevision": null,
+  "contributor": {
+    "userId": 284279708,
+    "githubLogin": "dxydjl0521-maker"
+  },
+  "changeFiles": [
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/achievement-9add8f7587ed4b76773a.json",
+      "sha256": "fb2b26ec3cbde5386ac438e29a0aa4dd3c3a54606b23798d25c1e43bf468fa82"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/achievement-a7c7a12889c0f677d3eb.json",
+      "sha256": "a0bfb821722ac73cb2707874a9cb78ded815da1268b036be005525bb4ec39e26"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/achievement-4e077b00a93de5776c85.json",
+      "sha256": "39ec22d07039cbd9155e55a1d78344e9fee0de5a5906e7aa020d9efafff7ed5e"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/achievement-ea03025fa1a0ff1834f9.json",
+      "sha256": "c6ac780a4ddfd0f334e9c39ce5a41c3f0cc23c4de86173c070db2031f4bcb22b"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/achievement-de0b22cba646b9b27bc5.json",
+      "sha256": "642f39f5e1ad778ef0b1b53e0f00fb55216cae8f19b831f54cbf8b16474e3bf4"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/achievement-a009b07af3fc7f921725.json",
+      "sha256": "a6ae36480a6e05df225bc49c26792d184a64f43b985a23a00b6abbb4d0b21744"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/categories-83ca68be6227af2feb15.json",
+      "sha256": "88041938a5a5b8aa0c017aaf1cef5f7dddee781c41f1ff434f94b5d41795e3c2"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/chapter-5de37efc19c2e70a75c0.json",
+      "sha256": "bfddbf3309cfdc2409bc6ed129a5a5764a23ad5279db2b5fd884794ca4591428"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/chapter-b7fe15d66fc5c9a994d3.json",
+      "sha256": "f6a04aff3d94c596714866cbb73e0167b7f98138a400d082e012efd4253c2d13"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/chapter-7dda9b529b8168540b22.json",
+      "sha256": "7a5b1b6ce7dc1298e84f1abf4584233e16d4b601246c4e53eb3f12cf4dc2da1b"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/chapter-8b02d4d624be06f728dc.json",
+      "sha256": "08b82ddf78cd603ecb77c6814b92d355bea3a6889529f97e4e64f4d61a249d69"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/layout-5de37efc19c2e70a75c0.json",
+      "sha256": "7cb5a2a0a39c41ee94c8e2ab7d5a2b1120c4a29405cc1aa343a1a200e8e2ec59"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/layout-b7fe15d66fc5c9a994d3.json",
+      "sha256": "9a627a80f818c6e075ceea6e5401edc5645fbfed2bf146369dd92e8b8d723e05"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/layout-7dda9b529b8168540b22.json",
+      "sha256": "9473908447619cc7fc4c7dc0216f326535b45454ccdc8d195d4856c7f10ee7b9"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/layout-8b02d4d624be06f728dc.json",
+      "sha256": "35e98a0157e09509e7cd5199ef3dd066859c5eaa91172ad0242abbf7e4cf27d2"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/layout-83ca68be6227af2feb15.json",
+      "sha256": "ad8a68db2ac39a415f13ed6639c10cf87eb95c6949cd9e7e9240fa1ac0bacccc"
+    },
+    {
+      "path": "submissions/162f776d-3ea7-4648-b1b8-9f8cb2ac5e2c/units/notes-83ca68be6227af2feb15.json",
+      "sha256": "53e074189027b5c2036801b035f1171dabe4ab2cf556ad9231044288fbcf35c1"
+    }
+  ]
+}
