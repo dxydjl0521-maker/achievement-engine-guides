@@ -300,6 +300,31 @@
       "releaseId": 419294117,
       "assetId": 661779095,
       "publishedAt": "2026-10-21T08:00:26.242Z"
+    },
+    {
+      "guideId": "c8206cdb-336c-4def-bdd0-140c767fa066",
+      "version": "1.0.1",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "753640",
+        "title": "Outer Wilds"
+      },
+      "guide": {
+        "title": "Outer Wilds-全成就攻略（默认攻略）",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": ""
+      },
+      "author": {
+        "displayName": "DXYDJL",
+        "githubLogin": "DXYDJL"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.5",
+      "sha256": "9e71d1f22d298d44b23c4ecbc745e281bd67e4e835e5790ed882f1b563dd02a0",
+      "releaseId": 419301003,
+      "assetId": 661799572,
+      "publishedAt": "2026-10-21T08:08:49.394Z"
     }
   ]
 }
