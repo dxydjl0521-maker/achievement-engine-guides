@@ -325,6 +325,31 @@
       "releaseId": 419301003,
       "assetId": 661799572,
       "publishedAt": "2026-10-21T08:08:49.394Z"
+    },
+    {
+      "guideId": "7dd82aff-93d1-4947-a640-fdae88e15b21",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "319630",
+        "title": "Life is Strange™"
+      },
+      "guide": {
+        "title": "Life is Strange™-全成就攻略（默认攻略）",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": ""
+      },
+      "author": {
+        "displayName": "DXYDJL",
+        "githubLogin": "DXYDJL"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.5",
+      "sha256": "866a392fe2aa95d498f288f91060976d14c8e9a7bec6bc5721e94059fb2c062f",
+      "releaseId": 420274255,
+      "assetId": 664541653,
+      "publishedAt": "2026-10-22T03:24:05.451Z"
     }
   ]
 }
