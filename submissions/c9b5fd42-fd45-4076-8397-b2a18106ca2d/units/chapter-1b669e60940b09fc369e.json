@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-AC_49",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_49",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "AC_49"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_49",
+      "field": "chapter",
+      "operation": "add",
+      "after": "Polarized"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_49",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_49",
+      "field": "description",
+      "operation": "add",
+      "after": "Finish Episode 5: Polarized"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_49",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

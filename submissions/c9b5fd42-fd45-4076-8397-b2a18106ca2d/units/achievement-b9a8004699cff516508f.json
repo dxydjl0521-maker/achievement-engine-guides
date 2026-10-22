@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "AC_2",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "AC_2",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "AC_2"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_2",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_2",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_2",
+      "field": "note",
+      "operation": "add",
+      "after": "Take optional photo #1 in Episode 1: Chrysalis"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_2",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

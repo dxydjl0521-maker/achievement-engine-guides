@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-AC_1",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_1",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "AC_1"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_1",
+      "field": "chapter",
+      "operation": "add",
+      "after": "Chrysalis"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_1",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_1",
+      "field": "description",
+      "operation": "add",
+      "after": "Finish Episode 1: Chrysalis"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_1",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

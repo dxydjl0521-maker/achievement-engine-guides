@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "AC_35",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "AC_35",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "AC_35"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_35",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_35",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_35",
+      "field": "note",
+      "operation": "add",
+      "after": "Take optional photo #10 in Episode 3: Chaos Theory"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_35",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

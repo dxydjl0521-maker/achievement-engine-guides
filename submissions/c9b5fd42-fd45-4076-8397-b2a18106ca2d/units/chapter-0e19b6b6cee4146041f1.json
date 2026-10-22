@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-AC_37",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_37",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "AC_37"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_37",
+      "field": "chapter",
+      "operation": "add",
+      "after": "Dark Room"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_37",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_37",
+      "field": "description",
+      "operation": "add",
+      "after": "Finish Episode 4: Dark Room"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_37",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

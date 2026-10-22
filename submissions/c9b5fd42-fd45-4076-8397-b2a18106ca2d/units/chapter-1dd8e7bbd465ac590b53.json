@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-AC_25",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_25",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "AC_25"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_25",
+      "field": "chapter",
+      "operation": "add",
+      "after": "Chaos Theory"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_25",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_25",
+      "field": "description",
+      "operation": "add",
+      "after": "Finish Episode 3: Chaos Theory"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_25",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

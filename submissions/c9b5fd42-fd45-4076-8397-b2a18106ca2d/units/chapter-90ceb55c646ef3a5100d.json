@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-AC_13",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_13",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "AC_13"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_13",
+      "field": "chapter",
+      "operation": "add",
+      "after": "Out of Time"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_13",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_13",
+      "field": "description",
+      "operation": "add",
+      "after": "Finish Episode 2: Out of Time"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-AC_13",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

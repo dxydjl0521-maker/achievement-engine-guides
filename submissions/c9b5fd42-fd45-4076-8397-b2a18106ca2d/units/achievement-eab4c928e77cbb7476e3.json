@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "AC_39",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "AC_39",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "AC_39"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_39",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_39",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_39",
+      "field": "note",
+      "operation": "add",
+      "after": "Take optional photo #2 in Episode 4: Dark Room"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_39",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

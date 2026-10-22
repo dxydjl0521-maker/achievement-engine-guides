@@ -1,0 +1,25 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-AC_25",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-AC_25",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "AC_26",
+        "AC_27",
+        "Ac_28",
+        "AC_29",
+        "AC_30",
+        "AC_31",
+        "AC_32",
+        "AC_33",
+        "AC_34",
+        "AC_35",
+        "AC_36"
+      ]
+    }
+  ]
+}

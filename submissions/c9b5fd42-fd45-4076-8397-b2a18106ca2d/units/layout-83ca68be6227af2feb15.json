@@ -1,0 +1,19 @@
+{
+  "entityType": "layout",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "guide",
+      "field": "chapterOrder",
+      "operation": "add",
+      "after": [
+        "chapter-AC_1",
+        "chapter-AC_13",
+        "chapter-AC_25",
+        "chapter-AC_37",
+        "chapter-AC_49"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "AC_15",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "AC_15",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "AC_15"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_15",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_15",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_15",
+      "field": "note",
+      "operation": "add",
+      "after": "Take optional photo #2 in Episode 2: Out of Time"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_15",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

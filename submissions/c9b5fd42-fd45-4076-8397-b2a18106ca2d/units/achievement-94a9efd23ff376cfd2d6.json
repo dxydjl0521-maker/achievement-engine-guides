@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "AC_51",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "AC_51",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "AC_51"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_51",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_51",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_51",
+      "field": "note",
+      "operation": "add",
+      "after": "Take optional photo #2 in Episode 5: Polarized"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "AC_51",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}
