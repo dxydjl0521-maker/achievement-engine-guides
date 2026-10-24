@@ -350,6 +350,31 @@
       "releaseId": 420274255,
       "assetId": 664541653,
       "publishedAt": "2026-10-22T03:24:05.451Z"
+    },
+    {
+      "guideId": "0b14088f-824c-4386-af51-518904b1118d",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "3669870",
+        "title": "CONTROL Resonant"
+      },
+      "guide": {
+        "title": "CONTROL Resonant-全成就攻略（专题攻略）",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": "攻略来源：https://steamcommunity.com/sharedfiles/filedetails/?id=3809666454 让妈妈骄傲吧小飞机"
+      },
+      "author": {
+        "displayName": "dxydjl0521-maker",
+        "githubLogin": "dxydjl0521-maker"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.5",
+      "sha256": "86ddea71e62ea04b9793cb7e37c4c437d7add01c729b1fa09a446db370a26e8f",
+      "releaseId": 422548731,
+      "assetId": 671428746,
+      "publishedAt": "2026-10-24T05:59:56.697Z"
     }
   ]
 }
