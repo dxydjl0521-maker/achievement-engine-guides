@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvlz90hp3i",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3i",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3i",
+      "field": "chapter",
+      "operation": "add",
+      "after": "五、战斗技巧"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3i",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3i",
+      "field": "description",
+      "operation": "add",
+      "after": "三项需要特定战斗操作，可选合适战点练习。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3i",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

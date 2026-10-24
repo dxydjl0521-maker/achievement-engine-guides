@@ -1,0 +1,33 @@
+{
+  "entityType": "notes",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "missable",
+      "operation": "add",
+      "after": [
+        {
+          "achievement_id": "NEW_ACHIEVEMENT_1_23",
+          "chapter": "一、唯一可能错过",
+          "reason": "“派对不停歇”卡拉 OK 选错可能导致幸存者死亡；任务前先备份存档。"
+        }
+      ]
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "new_game_plus",
+      "operation": "add",
+      "after": "来源指南认为一周目可取得全部49项；主线结束后可以自由探索、补大多数支线与收集。卡拉 OK 支线是重点防漏项。"
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "tips",
+      "operation": "add",
+      "after": "用户指定的小黑盒分享页未返回帖子正文，故本攻略以“让妈妈骄傲吧小飞机”的 Steam 中文全成就指南为替代来源，内容经重新表述：https://steamcommunity.com/sharedfiles/filedetails/?id=3809666454。原小黑盒链接：https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?h_camp=link&h_src=YXBwX3NoYXJl&link_id=984c727b161d&new_post_share_style_v2=0。若需图示位置或谜题逐步答案，请查看来源原帖。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvlz90hp4b",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp4b",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp4b",
+      "field": "chapter",
+      "operation": "add",
+      "after": "七、支线与收集"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp4b",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp4b",
+      "field": "description",
+      "operation": "add",
+      "after": "七项大型支线和收集目标；通关后可继续补漏。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp4b",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

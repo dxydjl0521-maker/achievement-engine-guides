@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvlz90hp3m",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3m",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3m",
+      "field": "chapter",
+      "operation": "add",
+      "after": "六、能力、装备与区域玩法"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3m",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3m",
+      "field": "description",
+      "operation": "add",
+      "after": "二十四项玩法成就；多数可在通关后自由探索时补齐。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3m",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

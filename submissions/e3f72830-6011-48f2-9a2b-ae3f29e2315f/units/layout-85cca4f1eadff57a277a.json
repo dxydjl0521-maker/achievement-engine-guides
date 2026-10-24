@@ -1,0 +1,38 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvlz90hp3m",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvlz90hp3m",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "NEW_ACHIEVEMENT_1_36",
+        "NEW_ACHIEVEMENT_1_47",
+        "NEW_ACHIEVEMENT_1_18",
+        "NEW_ACHIEVEMENT_1_46",
+        "NEW_ACHIEVEMENT_1_13",
+        "NEW_ACHIEVEMENT_1_30",
+        "NEW_ACHIEVEMENT_1_43",
+        "NEW_ACHIEVEMENT_1_45",
+        "NEW_ACHIEVEMENT_1_14",
+        "NEW_ACHIEVEMENT_1_44",
+        "NEW_ACHIEVEMENT_1_32",
+        "NEW_ACHIEVEMENT_1_19",
+        "NEW_ACHIEVEMENT_1_39",
+        "NEW_ACHIEVEMENT_1_42",
+        "NEW_ACHIEVEMENT_1_16",
+        "NEW_ACHIEVEMENT_1_31",
+        "NEW_ACHIEVEMENT_1_41",
+        "NEW_ACHIEVEMENT_1_15",
+        "NEW_ACHIEVEMENT_1_17",
+        "NEW_ACHIEVEMENT_1_37",
+        "NEW_ACHIEVEMENT_1_38",
+        "NEW_ACHIEVEMENT_1_21",
+        "NEW_ACHIEVEMENT_1_40",
+        "NEW_ACHIEVEMENT_1_20"
+      ]
+    }
+  ]
+}

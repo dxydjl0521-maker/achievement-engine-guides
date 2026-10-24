@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvlz90hp2z",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp2z",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp2z",
+      "field": "chapter",
+      "operation": "add",
+      "after": "一、唯一可能错过"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp2z",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp2z",
+      "field": "description",
+      "operation": "add",
+      "after": "卡拉 OK 支线要在任务过程中保证全员存活。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp2z",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

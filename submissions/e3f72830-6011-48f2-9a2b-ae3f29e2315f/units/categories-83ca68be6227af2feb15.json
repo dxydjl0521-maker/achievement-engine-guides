@@ -1,0 +1,36 @@
+{
+  "entityType": "categories",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "categories",
+      "entityId": "guide",
+      "field": "custom",
+      "operation": "add",
+      "after": [
+        {
+          "key": "技能",
+          "label": "技能",
+          "color": "#e100ff"
+        },
+        {
+          "key": "装备",
+          "label": "装备",
+          "color": "#0e14c8"
+        },
+        {
+          "key": "天赋",
+          "label": "天赋",
+          "color": "#ff7a45"
+        }
+      ]
+    },
+    {
+      "entityType": "categories",
+      "entityId": "guide",
+      "field": "presets",
+      "operation": "add",
+      "after": {}
+    }
+  ]
+}
