@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvlz90hp31",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp31",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp31",
+      "field": "chapter",
+      "operation": "add",
+      "after": "二、主线任务"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp31",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp31",
+      "field": "description",
+      "operation": "add",
+      "after": "七项随主线推进；名称以本机清单为准。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp31",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

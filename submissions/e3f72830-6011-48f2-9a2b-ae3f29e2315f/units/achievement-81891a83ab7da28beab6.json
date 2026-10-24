@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "NEW_ACHIEVEMENT_1_41",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_41",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "NEW_ACHIEVEMENT_1_41"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_41",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_41",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_41",
+      "field": "note",
+      "operation": "add",
+      "after": "从大型战利品箱积累升级点，获得一次生命或能量升级。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_41",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

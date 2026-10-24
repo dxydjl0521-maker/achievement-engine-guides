@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "NEW_ACHIEVEMENT_1_29",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_29",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "NEW_ACHIEVEMENT_1_29"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_29",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_29",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_29",
+      "field": "note",
+      "operation": "add",
+      "after": "完成“新生霉菌”及“碳基增殖”系列的主要支线。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_29",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

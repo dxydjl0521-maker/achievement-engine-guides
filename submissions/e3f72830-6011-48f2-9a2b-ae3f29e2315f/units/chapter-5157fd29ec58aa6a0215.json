@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvlz90hp3g",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3g",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3g",
+      "field": "chapter",
+      "operation": "add",
+      "after": "四、终局"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3g",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3g",
+      "field": "description",
+      "operation": "add",
+      "after": "主线与共振体清理完成后处理梦壑壁画。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp3g",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

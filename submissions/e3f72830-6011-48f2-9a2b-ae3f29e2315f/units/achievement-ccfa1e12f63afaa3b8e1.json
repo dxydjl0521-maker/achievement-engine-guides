@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "NEW_ACHIEVEMENT_1_38",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_38",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "NEW_ACHIEVEMENT_1_38"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_38",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_38",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_38",
+      "field": "note",
+      "operation": "add",
+      "after": "在每个可自定义外观栏位装备一件物品。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_38",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

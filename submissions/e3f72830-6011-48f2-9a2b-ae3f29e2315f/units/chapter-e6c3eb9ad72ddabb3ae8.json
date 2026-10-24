@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvlz90hp39",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp39",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp39",
+      "field": "chapter",
+      "operation": "add",
+      "after": "三、区域共振体"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp39",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp39",
+      "field": "description",
+      "operation": "add",
+      "after": "六个区域首领；在地图中追踪共振体任务。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz90hp39",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

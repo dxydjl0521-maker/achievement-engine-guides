@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "NEW_ACHIEVEMENT_1_23",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_23",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "NEW_ACHIEVEMENT_1_23"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_23",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_23",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_23",
+      "field": "note",
+      "operation": "add",
+      "after": "支线“派对不停歇”的卡拉 OK 需让所有人存活。每次按歌词尾音选押韵的回应；动手前备份存档，选错后可能要读档或开新周目。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_23",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

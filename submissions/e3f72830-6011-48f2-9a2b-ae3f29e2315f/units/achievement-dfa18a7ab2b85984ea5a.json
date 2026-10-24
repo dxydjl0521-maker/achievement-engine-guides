@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "NEW_ACHIEVEMENT_1_34",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_34",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "NEW_ACHIEVEMENT_1_34"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_34",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_34",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_34",
+      "field": "note",
+      "operation": "add",
+      "after": "连续维持 Dominance 状态六十秒。先点延长状态的天赋，再在密集战斗中不断处决敌人续时。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "NEW_ACHIEVEMENT_1_34",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvlz90hp39",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvlz90hp39",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "NEW_ACHIEVEMENT_1_12",
+        "NEW_ACHIEVEMENT_1_10",
+        "NEW_ACHIEVEMENT_1_11",
+        "NEW_ACHIEVEMENT_1_9",
+        "NEW_ACHIEVEMENT_1_8",
+        "NEW_ACHIEVEMENT_1_7"
+      ]
+    }
+  ]
+}

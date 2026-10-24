@@ -1,0 +1,21 @@
+{
+  "entityType": "layout",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "guide",
+      "field": "chapterOrder",
+      "operation": "add",
+      "after": [
+        "chapter-umvlz90hp2z",
+        "chapter-umvlz90hp31",
+        "chapter-umvlz90hp39",
+        "chapter-umvlz90hp3g",
+        "chapter-umvlz90hp3i",
+        "chapter-umvlz90hp3m",
+        "chapter-umvlz90hp4b"
+      ]
+    }
+  ]
+}
