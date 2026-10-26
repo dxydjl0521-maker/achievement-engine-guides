@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "testcomplete",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "testcomplete",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "testcomplete"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "testcomplete",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "testcomplete",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "testcomplete",
+      "field": "note",
+      "operation": "add",
+      "after": "完成“塔楼”DLC。先购买援军，再分配弹药；优先处理会控制玩家的敌人。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "testcomplete",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

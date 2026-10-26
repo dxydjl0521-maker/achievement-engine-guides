@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "rabbit",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "rabbit",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "rabbit"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "rabbit",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "rabbit",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "rabbit",
+      "field": "note",
+      "operation": "add",
+      "after": "在最初章节完成靶场训练。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "rabbit",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

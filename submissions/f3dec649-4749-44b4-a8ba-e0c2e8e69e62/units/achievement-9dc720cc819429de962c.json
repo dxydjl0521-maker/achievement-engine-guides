@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "safecracker",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "safecracker",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "safecracker"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "safecracker",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "safecracker",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "safecracker",
+      "field": "note",
+      "operation": "add",
+      "after": "打开十个保险柜；原帖提醒跨周目累计可能不稳定，可在同一周目集中完成。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "safecracker",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}

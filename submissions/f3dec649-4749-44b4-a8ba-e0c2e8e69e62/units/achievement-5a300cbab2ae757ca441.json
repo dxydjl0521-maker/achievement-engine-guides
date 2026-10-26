@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "pyromaniac",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "pyromaniac",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "pyromaniac"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "pyromaniac",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "pyromaniac",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "pyromaniac",
+      "field": "note",
+      "operation": "add",
+      "after": "用打火机累计烧掉五十张蜘蛛网。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "pyromaniac",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

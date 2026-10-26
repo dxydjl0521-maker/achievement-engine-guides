@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "big_momma",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "big_momma",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "big_momma"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "big_momma",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "big_momma",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "big_momma",
+      "field": "note",
+      "operation": "add",
+      "after": "“地下城”面对犀牛时，引它撞断柱子；第二阶段先清掉小怪。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "big_momma",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

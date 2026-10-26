@@ -1,0 +1,43 @@
+{
+  "entityType": "notes",
+  "entityId": "guide",
+  "changes": [
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "missable",
+      "operation": "add",
+      "after": [
+        {
+          "achievement_id": "freedom",
+          "chapter": "二、关卡特定条件",
+          "reason": "逃离集中营时需操作守卫室开关。"
+        },
+        {
+          "achievement_id": "reunion",
+          "chapter": "二、关卡特定条件",
+          "reason": "威尼斯离开前完成打靶并归还玩具。"
+        },
+        {
+          "achievement_id": "patron_of_the_arts",
+          "chapter": "二、关卡特定条件",
+          "reason": "大剧院的演出需看完再离开。"
+        }
+      ]
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "new_game_plus",
+      "operation": "add",
+      "after": "原帖建议至少两周目以覆盖双模式、双结局；道德点较高时结局由剧情决定，不能在终局任意切换。"
+    },
+    {
+      "entityType": "notes",
+      "entityId": "guide",
+      "field": "tips",
+      "operation": "add",
+      "after": "按 KKchaos 的本体与 DLC 全49成就帖子整理并改写，成就名称与条件以本机清单为准。原文：https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?h_camp=link&h_src=YXBwX3NoYXJl&link_id=b7cc714875b0&new_post_share_style_v2=0。原帖对“脱轨”的关卡写法与本机成就描述不一致，已在条目中标注。"
+    }
+  ]
+}

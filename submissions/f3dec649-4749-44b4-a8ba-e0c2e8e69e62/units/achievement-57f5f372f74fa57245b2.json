@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "invisible_intruder",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_intruder",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "invisible_intruder"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_intruder",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_intruder",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_intruder",
+      "field": "note",
+      "operation": "add",
+      "after": "“分裂”不杀人、不触发警报完成章节。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_intruder",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

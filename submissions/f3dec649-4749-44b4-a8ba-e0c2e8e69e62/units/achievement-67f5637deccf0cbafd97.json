@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "redemption",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "redemption",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "redemption"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "redemption",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "redemption",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "redemption",
+      "field": "note",
+      "operation": "add",
+      "after": "争取足够道德点以拯救 D6：听完可听的对话、探索隐藏地点，避免非必要杀戮。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "redemption",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

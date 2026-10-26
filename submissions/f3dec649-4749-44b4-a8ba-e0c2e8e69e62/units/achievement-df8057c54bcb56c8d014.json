@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "cest_la_vie",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "cest_la_vie",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "cest_la_vie"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "cest_la_vie",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "cest_la_vie",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "cest_la_vie",
+      "field": "note",
+      "operation": "add",
+      "after": "走毁灭 D6 的坏结局路线；与“救赎”分周目完成。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "cest_la_vie",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

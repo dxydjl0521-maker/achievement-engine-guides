@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "invisible_soldier",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_soldier",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "invisible_soldier"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_soldier",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_soldier",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_soldier",
+      "field": "note",
+      "operation": "add",
+      "after": "“革命”不杀人、不触发警报完成章节。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_soldier",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

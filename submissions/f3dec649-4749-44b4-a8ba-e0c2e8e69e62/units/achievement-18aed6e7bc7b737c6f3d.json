@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "nowayout",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "nowayout",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "nowayout"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "nowayout",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "nowayout",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "nowayout",
+      "field": "note",
+      "operation": "add",
+      "after": "完成“可汗”DLC。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "nowayout",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

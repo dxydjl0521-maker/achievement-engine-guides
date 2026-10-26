@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "secret",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "secret",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "secret"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "secret",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "secret",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "secret",
+      "field": "note",
+      "operation": "add",
+      "after": "随剧情揭开红军计划。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "secret",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

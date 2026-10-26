@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "derailed",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "derailed",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "derailed"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "derailed",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "derailed",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "derailed",
+      "field": "note",
+      "operation": "add",
+      "after": "按本机成就描述，在“革命”击杀全部武装敌人与增援；此任务与“隐形士兵”需分次完成。原帖将关卡写作“分裂”，请以游戏内计数为准。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "derailed",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

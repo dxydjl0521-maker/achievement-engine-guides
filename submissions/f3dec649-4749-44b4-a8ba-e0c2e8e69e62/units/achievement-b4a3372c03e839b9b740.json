@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "revelation",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "revelation",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "revelation"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "revelation",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "revelation",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "revelation",
+      "field": "note",
+      "operation": "add",
+      "after": "借小黑的帮助让莫斯文说出真相。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "revelation",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

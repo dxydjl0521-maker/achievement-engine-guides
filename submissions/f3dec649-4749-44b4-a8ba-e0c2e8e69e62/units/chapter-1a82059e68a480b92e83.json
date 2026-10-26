@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvlz7gja2p",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja2p",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja2p",
+      "field": "chapter",
+      "operation": "add",
+      "after": "四、DLC"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja2p",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja2p",
+      "field": "description",
+      "operation": "add",
+      "after": "原帖的9个 DLC 成就；通关后可从章节菜单进入。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja2p",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

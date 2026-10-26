@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "soldier",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "soldier",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "soldier"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "soldier",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "soldier",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "soldier",
+      "field": "note",
+      "operation": "add",
+      "after": "累计击杀一百名人类敌人。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "soldier",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

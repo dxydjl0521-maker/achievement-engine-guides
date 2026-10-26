@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "shadow",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "shadow",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "shadow"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "shadow",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "shadow",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "shadow",
+      "field": "note",
+      "operation": "add",
+      "after": "累计隐秘击杀十五名敌人。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "shadow",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

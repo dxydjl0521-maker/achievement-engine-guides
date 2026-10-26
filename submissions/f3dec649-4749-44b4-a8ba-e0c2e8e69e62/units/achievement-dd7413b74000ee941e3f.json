@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "saboteur",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "saboteur",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "saboteur"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "saboteur",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "saboteur",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "saboteur",
+      "field": "note",
+      "operation": "add",
+      "after": "完成“狙击小队”DLC，以潜入为主。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "saboteur",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

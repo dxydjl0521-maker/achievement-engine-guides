@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "veteran",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "veteran",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "veteran"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "veteran",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "veteran",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "veteran",
+      "field": "note",
+      "operation": "add",
+      "after": "开局领取装备时选三把弹药类型各不相同的枪。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "veteran",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

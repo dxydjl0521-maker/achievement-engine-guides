@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "clean_jailbreak",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "clean_jailbreak",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "clean_jailbreak"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "clean_jailbreak",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "clean_jailbreak",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "clean_jailbreak",
+      "field": "note",
+      "operation": "add",
+      "after": "“帝国”章节逃亡时保持不被纳粹抓住。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "clean_jailbreak",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

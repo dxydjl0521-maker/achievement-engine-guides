@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "revenge",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "revenge",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "revenge"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "revenge",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "revenge",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "revenge",
+      "field": "note",
+      "operation": "add",
+      "after": "帕维尔事件选择杀死他；与放过他的道德点路线分开安排。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "revenge",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "within_a_hair_of_death",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "within_a_hair_of_death",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "within_a_hair_of_death"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "within_a_hair_of_death",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "within_a_hair_of_death",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "within_a_hair_of_death",
+      "field": "note",
+      "operation": "add",
+      "after": "随剧情逃出红军防线。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "within_a_hair_of_death",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

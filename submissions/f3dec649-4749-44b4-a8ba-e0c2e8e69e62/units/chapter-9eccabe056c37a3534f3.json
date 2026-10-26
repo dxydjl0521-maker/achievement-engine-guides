@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvlz7gja1i",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja1i",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja1i",
+      "field": "chapter",
+      "operation": "add",
+      "after": "一、流程与结局"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja1i",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja1i",
+      "field": "description",
+      "operation": "add",
+      "after": "原帖的12个流程成就；双模式与双结局须分别安排。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja1i",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

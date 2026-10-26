@@ -1,0 +1,26 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvlz7gja1i",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvlz7gja1i",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "rabbit",
+        "veteran",
+        "within_a_hair_of_death",
+        "big_momma",
+        "savior",
+        "secret",
+        "revenge",
+        "revelation",
+        "survival",
+        "redemption",
+        "spartan",
+        "cest_la_vie"
+      ]
+    }
+  ]
+}

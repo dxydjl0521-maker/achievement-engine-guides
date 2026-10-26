@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "mouse",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "mouse",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "mouse"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "mouse",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "mouse",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "mouse",
+      "field": "note",
+      "operation": "add",
+      "after": "“回声”章节绕开守望者的视线，保持未被发现。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "mouse",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

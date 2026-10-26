@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "atas",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "atas",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "atas"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "atas",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "atas",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "atas",
+      "field": "note",
+      "operation": "add",
+      "after": "完成“帕维尔”DLC。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "atas",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

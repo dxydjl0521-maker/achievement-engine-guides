@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvlz7gja2c",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja2c",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja2c",
+      "field": "chapter",
+      "operation": "add",
+      "after": "三、累计与收集"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja2c",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja2c",
+      "field": "description",
+      "operation": "add",
+      "after": "原帖的12个累计成就；日记和保险柜可集中补漏。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja2c",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

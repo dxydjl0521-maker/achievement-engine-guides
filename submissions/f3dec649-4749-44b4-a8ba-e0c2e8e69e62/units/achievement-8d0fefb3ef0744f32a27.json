@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "invisible_savior",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_savior",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "invisible_savior"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_savior",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_savior",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_savior",
+      "field": "note",
+      "operation": "add",
+      "after": "“厂区”不杀人、不触发警报完成章节。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "invisible_savior",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

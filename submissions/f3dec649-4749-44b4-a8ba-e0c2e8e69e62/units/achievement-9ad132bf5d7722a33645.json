@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "patron_of_the_arts",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "patron_of_the_arts",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "patron_of_the_arts"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "patron_of_the_arts",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "patron_of_the_arts",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "patron_of_the_arts",
+      "field": "note",
+      "operation": "add",
+      "after": "“大剧院”与帕维尔同行时坐下看完整场演出后再离开。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "patron_of_the_arts",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

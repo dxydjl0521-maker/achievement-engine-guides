@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "reunion",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "reunion",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "reunion"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "reunion",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "reunion",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "reunion",
+      "field": "note",
+      "operation": "add",
+      "after": "在威尼斯完成打靶游戏取得泰迪熊，再还给哭泣的小孩。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "reunion",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

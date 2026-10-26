@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "ever_vigilant",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "ever_vigilant",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "ever_vigilant"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ever_vigilant",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ever_vigilant",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ever_vigilant",
+      "field": "note",
+      "operation": "add",
+      "after": "累计解除十个陷阱。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "ever_vigilant",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}
