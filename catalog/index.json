@@ -375,6 +375,31 @@
       "releaseId": 422548731,
       "assetId": 671428746,
       "publishedAt": "2026-10-24T05:59:56.697Z"
+    },
+    {
+      "guideId": "1dc90db8-3582-465e-bd0c-46ce52139e90",
+      "version": "1.0.0",
+      "game": {
+        "platform": "steam",
+        "platformGameId": "287390",
+        "title": "Metro: Last Light Redux"
+      },
+      "guide": {
+        "title": "Metro： Last Light Redux-全成就攻略（默认攻略）",
+        "type": "workflow",
+        "language": "zh-CN",
+        "summary": ""
+      },
+      "author": {
+        "displayName": "dxydjl0521-maker",
+        "githubLogin": "dxydjl0521-maker"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "minAppVersion": "0.8.5",
+      "sha256": "834f4be82cd774f51c06451ffc8c56fa766626122f4edacc9bf8d4db9a77e521",
+      "releaseId": 426160081,
+      "assetId": 683410979,
+      "publishedAt": "2026-10-28T01:14:58.624Z"
     }
   ]
 }
