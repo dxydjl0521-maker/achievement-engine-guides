@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "not_a_rabbit",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "not_a_rabbit",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "not_a_rabbit"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "not_a_rabbit",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "not_a_rabbit",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "not_a_rabbit",
+      "field": "note",
+      "operation": "add",
+      "after": "在“灰烬”章节保持全程无伤。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "not_a_rabbit",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

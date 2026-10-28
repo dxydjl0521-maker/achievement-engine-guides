@@ -1,0 +1,23 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvlz7gja2p",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvlz7gja2p",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "heil_reich",
+        "kshatriya",
+        "saboteur",
+        "sunsetofhope",
+        "through_fire",
+        "atas",
+        "nowayout",
+        "testcomplete",
+        "developer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvlz7gja2c",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvlz7gja2c",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "engineer",
+        "pyromaniac",
+        "tortoise",
+        "air",
+        "antibiotic",
+        "edison",
+        "ever_vigilant",
+        "soldier",
+        "no_shooting_allowed",
+        "shadow",
+        "published",
+        "safecracker"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "savior",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "savior",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "savior"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "savior",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "savior",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "savior",
+      "field": "note",
+      "operation": "add",
+      "after": "救安娜时按雷斯尼斯基要求摘下面罩。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "savior",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

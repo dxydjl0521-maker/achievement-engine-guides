@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "air",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "air",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "air"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "air",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "air",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "air",
+      "field": "note",
+      "operation": "add",
+      "after": "累计消耗三十分钟滤毒罐。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "air",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

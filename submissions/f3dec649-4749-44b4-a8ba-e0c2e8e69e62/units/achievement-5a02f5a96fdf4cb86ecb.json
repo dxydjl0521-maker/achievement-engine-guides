@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "scram",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "scram",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "scram"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "scram",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "scram",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "scram",
+      "field": "note",
+      "operation": "add",
+      "after": "“雷吉娜”驾驶轨道车推进时，击退冲车的守望者并避免受伤。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "scram",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

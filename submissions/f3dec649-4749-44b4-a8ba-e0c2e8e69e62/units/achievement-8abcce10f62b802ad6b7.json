@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "kshatriya",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "kshatriya",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "kshatriya"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "kshatriya",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "kshatriya",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "kshatriya",
+      "field": "note",
+      "operation": "add",
+      "after": "完成“刹帝利”DLC；探索图书馆、带回秘密地图，及时返营补滤毒罐。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "kshatriya",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

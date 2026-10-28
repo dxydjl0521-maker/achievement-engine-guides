@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "max",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "max",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "max"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "max",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "max",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "max",
+      "field": "note",
+      "operation": "add",
+      "after": "在威尼斯酒吧反复喝酒，直到成就触发。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "max",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

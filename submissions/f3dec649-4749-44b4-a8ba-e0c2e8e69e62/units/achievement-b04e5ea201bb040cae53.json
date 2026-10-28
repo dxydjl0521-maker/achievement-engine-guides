@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "published",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "published",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "published"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "published",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "published",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "published",
+      "field": "note",
+      "operation": "add",
+      "after": "收齐四十三页阿尔乔姆日记；通关后可选关补漏。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "published",
+      "field": "type",
+      "operation": "add",
+      "after": "collect"
+    }
+  ]
+}

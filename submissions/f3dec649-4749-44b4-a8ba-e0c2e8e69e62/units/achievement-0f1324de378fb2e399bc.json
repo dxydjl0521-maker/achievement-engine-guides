@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "edison",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "edison",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "edison"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "edison",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "edison",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "edison",
+      "field": "note",
+      "operation": "add",
+      "after": "不打碎灯，累计手动关闭四十盏。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "edison",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

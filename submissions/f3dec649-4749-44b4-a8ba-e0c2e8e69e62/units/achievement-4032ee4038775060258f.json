@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "survival",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "survival",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "survival"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "survival",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "survival",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "survival",
+      "field": "note",
+      "operation": "add",
+      "after": "以生存者模式通关。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "survival",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

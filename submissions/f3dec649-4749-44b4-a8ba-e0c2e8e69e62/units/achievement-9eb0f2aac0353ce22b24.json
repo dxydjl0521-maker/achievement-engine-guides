@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "forest_guardian",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "forest_guardian",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "forest_guardian"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "forest_guardian",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "forest_guardian",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "forest_guardian",
+      "field": "note",
+      "operation": "add",
+      "after": "“花园”打败熊后，继续击退围攻它的守望者。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "forest_guardian",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

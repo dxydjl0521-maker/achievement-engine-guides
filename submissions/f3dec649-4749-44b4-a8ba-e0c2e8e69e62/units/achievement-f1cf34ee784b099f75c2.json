@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "sunsetofhope",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "sunsetofhope",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "sunsetofhope"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "sunsetofhope",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "sunsetofhope",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "sunsetofhope",
+      "field": "note",
+      "operation": "add",
+      "after": "完成“安娜”DLC。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "sunsetofhope",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "back_to_the_past",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "back_to_the_past",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "back_to_the_past"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "back_to_the_past",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "back_to_the_past",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "back_to_the_past",
+      "field": "note",
+      "operation": "add",
+      "after": "“死城”探索全部七处幻象；主路以外的区域也要检查。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "back_to_the_past",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

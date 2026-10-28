@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "no_shooting_allowed",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "no_shooting_allowed",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "no_shooting_allowed"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "no_shooting_allowed",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "no_shooting_allowed",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "no_shooting_allowed",
+      "field": "note",
+      "operation": "add",
+      "after": "只用飞刀连续击杀十名敌人；失误时可重新读档。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "no_shooting_allowed",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

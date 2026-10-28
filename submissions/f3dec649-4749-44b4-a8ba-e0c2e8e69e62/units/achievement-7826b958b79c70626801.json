@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "engineer",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "engineer",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "engineer"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "engineer",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "engineer",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "engineer",
+      "field": "note",
+      "operation": "add",
+      "after": "累计使用十次电闸或杠杆开关。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "engineer",
+      "field": "type",
+      "operation": "add",
+      "after": "misc"
+    }
+  ]
+}

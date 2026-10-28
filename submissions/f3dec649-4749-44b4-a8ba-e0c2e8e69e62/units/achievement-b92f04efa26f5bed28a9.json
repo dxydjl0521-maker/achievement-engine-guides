@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "through_fire",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "through_fire",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "through_fire"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "through_fire",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "through_fire",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "through_fire",
+      "field": "note",
+      "operation": "add",
+      "after": "完成“蜘蛛巢穴”DLC；沿途搜集装备，撤离时还会遭遇敌人。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "through_fire",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

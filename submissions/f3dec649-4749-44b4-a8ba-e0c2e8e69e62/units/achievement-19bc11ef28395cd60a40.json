@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "rain_man",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "rain_man",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "rain_man"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "rain_man",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "rain_man",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "rain_man",
+      "field": "note",
+      "operation": "add",
+      "after": "“大桥”章节不击杀任何生物；循小黑提示潜行通过。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "rain_man",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

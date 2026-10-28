@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "heil_reich",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "heil_reich",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "heil_reich"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "heil_reich",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "heil_reich",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "heil_reich",
+      "field": "note",
+      "operation": "add",
+      "after": "完成“重装小队”DLC。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "heil_reich",
+      "field": "type",
+      "operation": "add",
+      "after": "side"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "spartan",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "spartan",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "spartan"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "spartan",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "spartan",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "spartan",
+      "field": "note",
+      "operation": "add",
+      "after": "以斯巴达模式通关。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "spartan",
+      "field": "type",
+      "operation": "add",
+      "after": "main"
+    }
+  ]
+}

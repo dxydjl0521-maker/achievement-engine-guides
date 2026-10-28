@@ -1,0 +1,30 @@
+{
+  "entityType": "layout",
+  "entityId": "chapter-umvlz7gja1v",
+  "changes": [
+    {
+      "entityType": "layout",
+      "entityId": "chapter-umvlz7gja1v",
+      "field": "achievementOrder",
+      "operation": "add",
+      "after": [
+        "not_a_rabbit",
+        "freedom",
+        "clean_jailbreak",
+        "invisible_intruder",
+        "invisible_savior",
+        "invisible_soldier",
+        "scram",
+        "commando",
+        "max",
+        "reunion",
+        "rain_man",
+        "back_to_the_past",
+        "forest_guardian",
+        "mouse",
+        "patron_of_the_arts",
+        "derailed"
+      ]
+    }
+  ]
+}

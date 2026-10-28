@@ -1,0 +1,41 @@
+{
+  "entityType": "chapter",
+  "entityId": "chapter-umvlz7gja1v",
+  "changes": [
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja1v",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja1v",
+      "field": "chapter",
+      "operation": "add",
+      "after": "二、关卡特定条件"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja1v",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja1v",
+      "field": "description",
+      "operation": "add",
+      "after": "原帖的16个章节目标；潜行与全灭目标要分次处理。"
+    },
+    {
+      "entityType": "chapter",
+      "entityId": "chapter-umvlz7gja1v",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    }
+  ]
+}

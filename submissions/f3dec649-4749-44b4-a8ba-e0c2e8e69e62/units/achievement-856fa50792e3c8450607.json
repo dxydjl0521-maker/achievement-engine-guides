@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "antibiotic",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "antibiotic",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "antibiotic"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "antibiotic",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "antibiotic",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "antibiotic",
+      "field": "note",
+      "operation": "add",
+      "after": "累计击杀一百只变异体。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "antibiotic",
+      "field": "type",
+      "operation": "add",
+      "after": "combat"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "commando",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "commando",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "commando"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "commando",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "commando",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "commando",
+      "field": "note",
+      "operation": "add",
+      "after": "“土匪”章节潜行进入，救出被关押的母亲和孩子且不拉响警报。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "commando",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}

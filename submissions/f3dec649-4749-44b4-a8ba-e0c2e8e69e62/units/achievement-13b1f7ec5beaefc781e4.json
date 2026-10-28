@@ -1,0 +1,41 @@
+{
+  "entityType": "achievement",
+  "entityId": "freedom",
+  "changes": [
+    {
+      "entityType": "achievement",
+      "entityId": "freedom",
+      "field": "achievement_id",
+      "operation": "add",
+      "after": "freedom"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "freedom",
+      "field": "content",
+      "operation": "add",
+      "after": ""
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "freedom",
+      "field": "exists",
+      "operation": "add",
+      "after": true
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "freedom",
+      "field": "note",
+      "operation": "add",
+      "after": "逃离集中营时到守卫控制室拉动释放囚犯的开关。"
+    },
+    {
+      "entityType": "achievement",
+      "entityId": "freedom",
+      "field": "type",
+      "operation": "add",
+      "after": "condition"
+    }
+  ]
+}
